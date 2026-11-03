@@ -1,6 +1,6 @@
 {
   "name": "dreamtrawell-dmc-next-firebase",
-  "version": "14.0.0",
+  "version": "14.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,8 @@
     "test:v13": "node tests/check-v13.mjs",
     "test:v13.0.2": "node tests/check-v13-0-2.mjs",
     "test:v13.0.3": "node tests/check-v13-0-3.mjs",
-    "test:v14": "node tests/check-v14.mjs"
+    "test:v14": "node tests/check-v14.mjs",
+    "test:v14.0.1": "node tests/check-v14-0-1.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",

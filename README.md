@@ -58,3 +58,7 @@ Run `npm run test:v12` along with the pre-existing data, security and V11 tests.
 
 ## V13.0.3 (Visual corrections + B2B package detail UX)
 See [`docs/V13_0_3_UI_AND_PACKAGE_RELEASE.md`](docs/V13_0_3_UI_AND_PACKAGE_RELEASE.md) for visual changes, 2 known photo replacements, optional CMS package gallery, necessary Firestore rule update and manual acceptance tests. The source is not yet production verified.
+
+## V14.0.1 — Brand favicon, social media and hydration hotfix
+
+Adds tab/bookmark icons, Admin → Social media links, dynamic public footer/Contact icons, and a focused image-attribute hydration fix. See `docs/V14_0_1_FAVICON_SOCIAL_HYDRATION.md` for deployment instructions and pending verification.

@@ -10,5 +10,5 @@ export default function ResilientImage({ src, fallback = '/assets/singapore.svg'
     if (current !== fallback) setCurrent(fallback);
     else if (!lastResort) { setLastResort(true); setCurrent('/assets/singapore.svg'); }
   };
-  return <img loading="lazy" decoding="async" {...props} src={current} alt={alt} onError={handleError} />;
+  return <img {...props} src={current} alt={alt} onError={handleError} />;
 }

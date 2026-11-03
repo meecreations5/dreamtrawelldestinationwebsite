@@ -87,6 +87,34 @@ service cloud.firestore {
         && request.resource.data.updatedBy == request.auth.uid
         && request.resource.data.updatedAt == request.time;
     }
+    function validSocial() {
+      return isSuperAdmin()
+        && request.resource.data.keys().hasOnly(['links','updatedBy','updatedAt'])
+        && request.resource.data.keys().hasAll(['links','updatedBy','updatedAt'])
+        && request.resource.data.links is map
+        && request.resource.data.links.keys().hasOnly(['instagram','facebook','linkedin','youtube','x','whatsapp'])
+        && request.resource.data.links.keys().hasAll(['instagram','facebook','linkedin','youtube','x','whatsapp'])
+        && request.resource.data.links.instagram is string
+        && request.resource.data.links.facebook is string
+        && request.resource.data.links.linkedin is string
+        && request.resource.data.links.youtube is string
+        && request.resource.data.links.x is string
+        && request.resource.data.links.whatsapp is string
+        && request.resource.data.links.instagram.size() <= 400
+        && request.resource.data.links.facebook.size() <= 400
+        && request.resource.data.links.linkedin.size() <= 400
+        && request.resource.data.links.youtube.size() <= 400
+        && request.resource.data.links.x.size() <= 400
+        && request.resource.data.links.whatsapp.size() <= 400
+        && request.resource.data.links.instagram.matches('^(|https://(www\\.)?instagram\\.com/[^ ]+)$')
+        && request.resource.data.links.facebook.matches('^(|https://((www\\.)?facebook\\.com|(www\\.)?fb\\.com)/[^ ]+)$')
+        && request.resource.data.links.linkedin.matches('^(|https://(www\\.)?linkedin\\.com/[^ ]+)$')
+        && request.resource.data.links.youtube.matches('^(|https://((www\\.)?youtube\\.com|(www\\.)?youtu\\.be)/[^ ]+)$')
+        && request.resource.data.links.x.matches('^(|https://((www\\.)?x\\.com|(www\\.)?twitter\\.com)/[^ ]+)$')
+        && request.resource.data.links.whatsapp.matches('^(|https://(wa\\.me|api\\.whatsapp\\.com|(www\\.)?whatsapp\\.com)/[^ ]+)$')
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
     function validSlug(slug) { return slug.matches('^[a-z0-9]+(-[a-z0-9]+)*$') && slug.size() <= 100; }
     function validContent(id, testimonial) {
       return validSlug(id)
@@ -179,7 +207,7 @@ service cloud.firestore {
       allow delete: if false;
     }
     match /siteSettings/{id} {
-      allow get: if id in ['catalogue','publicCopy','theme','homeHero'];
+      allow get: if id in ['catalogue','publicCopy','theme','homeHero','social'];
       allow list, delete: if false;
       allow create, update: if
         (id == 'catalogue' && isSuperAdmin()
@@ -189,7 +217,8 @@ service cloud.firestore {
         && request.resource.data.updatedAt == request.time)
         || (id == 'publicCopy' && isSuperAdmin() && validPublicCopy())
         || (id == 'theme' && validTheme())
-        || (id == 'homeHero' && validHomeHero());
+        || (id == 'homeHero' && validHomeHero())
+        || (id == 'social' && validSocial());
     }
     match /sitePageDrafts/{id} {
       // Draft edits stay private and do not affect an already published page.

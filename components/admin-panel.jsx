@@ -7,7 +7,7 @@ import seedDestinations from '@/data/destinations.json';
 import seedPackages from '@/data/packages.json';
 import { Lock, LogOut, Save, Plus, RefreshCw, UploadCloud, Search } from 'lucide-react';
 import { AdminWorkspace } from '@/components/admin-workspace';
-const modules = ['overview','theme', 'homeHero', 'siteCopy','pagesSEO','destinations','packages','media','library','promotions','testimonials','enquiries','team'];
+const modules = ['overview','theme', 'homeHero', 'siteCopy','pagesSEO','social','destinations','packages','media','library','promotions','testimonials','enquiries','team'];
 const blank = { packages: { slug: '', title: '', destination: 'Singapore', category: 'Standard', duration: '3N / 4D', nights: 3, audience: 'FIT / Family', summary: '', image: '', imageAlt: '', gallery: [], days: [{ label: 'DAY 01', title: 'Arrival', description: '' }], inclusions: [], upgrades: [], status: 'draft' }, destinations: { slug: '', name: '', eyebrow: '', summary: '', hero: '', areas: [], activities: [], guidance: '', destinationHeadline:'', destinationOverview:'', sellingAreas:[], travellerProfiles:[], planningHeadline:'', planningNote:'', experienceHighlights:[], areaProfiles: [], standardExperiences: [], offbeatIdeas: [], hotelGuidance: '', operationalNotes: '', status: 'draft' }, testimonials: { slug: '', name: '', agency: '', destination: '', quote: '', consentVerified: false, status: 'draft' }, promotions: { slug: '', title: '', destination: '', summary: '', validFrom: '', validUntil: '', status: 'draft' } };
 export function AdminPanel() {
     const [user, setUser] = useState(null);
@@ -84,7 +84,7 @@ export function AdminPanel() {
     }
     async function fetchData(next = module) {
         if (!user || access !== 'granted') return;
-        if(['overview','theme','homeHero','siteCopy','pagesSEO','team','media','library'].includes(next)) {setItems([]);setActive(null);return;}
+        if(['overview','theme','homeHero','siteCopy','pagesSEO','social','team','media','library'].includes(next)) {setItems([]);setActive(null);return;}
         setLoading(true); setMessage('');
         try { setItems(await fetchAdminItems(next)); setActive(null); }
         catch (e) { setMessage(e?.message || 'Unable to load records. Check Firestore Security Rules.'); }

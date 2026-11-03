@@ -1,0 +1,25 @@
+/* Public footer-only social icons; uses existing theme tokens. */
+.site-footer .dt-social-links { display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin-top:18px; }
+.site-footer .dt-social-link { display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;
+  border:1px solid rgba(228,239,247,.33);border-radius:50%;background:rgba(255,255,255,.06);
+  color:#F4F8FA;text-decoration:none;transition:background .22s ease,border-color .22s ease,transform .22s ease; }
+.site-footer .dt-social-link:hover { background:var(--red,#BD3046);border-color:var(--red,#BD3046);color:#fff;transform:translateY(-2px); }
+.site-footer .dt-social-link:focus-visible { outline:3px solid #fff;outline-offset:3px; }
+.dt-social-preview { margin:22px 0;padding:20px;border:1px solid #dce5ee;border-radius:12px;background:#f4f8fa;display:grid;gap:13px; }
+.dt-social-preview strong { color:#0c2946;font-size:13px; }
+.dt-social-preview small { color:#425466;font-size:12px; }
+.dt-social-preview .dt-social-links {display:flex;gap:8px;flex-wrap:wrap;}
+.dt-social-preview .dt-social-link {display:inline-flex;width:42px;height:42px;justify-content:center;align-items:center;
+  background:#0c2946;color:#fff;border-radius:50%;transition:background .2s;}
+.dt-social-preview .dt-social-link:hover{background:#bd3046;}
+.dt-social-preview .dt-social-link:focus-visible{outline:3px solid #bd3046;outline-offset:3px;}
+.sr-only {position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;
+ overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important;}
+@media (prefers-reduced-motion:reduce) { .site-footer .dt-social-link{transition:none;} .site-footer .dt-social-link:hover{transform:none;} }
+
+/* Contact page: navy controls against pearl-white surfaces. */
+.dt-contact-social {display:flex;gap:11px;flex-wrap:wrap;margin-top:20px;}
+.dt-contact-social .dt-social-link {display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;
+  border-radius:50%;border:1px solid #d8e5ee;color:#0c2946;background:#f4f8fa;transition:background .2s,color .2s;}
+.dt-contact-social .dt-social-link:hover {background:#0c2946;color:#fff;}
+.dt-contact-social .dt-social-link:focus-visible {outline:3px solid #bd3046;outline-offset:3px;}

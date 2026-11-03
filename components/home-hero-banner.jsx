@@ -54,7 +54,7 @@ export default function HomeHeroBanner({destinations=[],settings}) {
   if(!current)return <div className="hero-photo dt-hero-photo-empty"><ResilientImage src="/assets/singapore.svg" fallback="/assets/singapore.svg" alt="DreamTrawell destination"/></div>;
   return <div className="hero-photo dt-hero-photo" onMouseEnter={()=>setHovered(true)} onMouseLeave={()=>setHovered(false)} onFocusCapture={()=>setHovered(true)} onBlurCapture={e=>{if(!e.currentTarget.contains(e.relatedTarget))setHovered(false)}}>
     <Link href={`/destinations/${encodeURIComponent(current.slug)}`} className="dt-hero-photo-link" aria-label={`Explore ${current.name}`}>
-      <ResilientImage key={current.slug} className="dt-hero-photo-image" loading="eager" fetchPriority="high" src={current.hero} fallback={`/assets/${current.slug}.svg`} alt={`${current.name} destination photograph`} />
+      <ResilientImage key={current.slug} className="dt-hero-photo-image" src={current.hero} fallback={`/assets/${current.slug}.svg`} alt={`${current.name} destination photograph`} />
     </Link>
     <div className="hero-caption dt-hero-caption" aria-live="polite" aria-atomic="true"><span>YOUR GROUND PARTNER</span><strong>{current.name}</strong><p>Plan with local knowledge. Execute with purpose.</p></div>
     {canRotate&&<div className="dt-hero-controls" aria-label="Featured destination banner controls">

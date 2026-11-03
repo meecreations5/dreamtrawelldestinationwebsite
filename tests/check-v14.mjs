@@ -32,5 +32,5 @@ assert(read('lib/content.js').includes('record lookup'));
 const all=read('lib/page-text-fields.js');
 const fieldCount=(all.match(/"id"\s*:/g)||[]).length;
 assert(fieldCount >= 50,'Expected 50+ editable static copy fields, got '+fieldCount);
-const pkg=read('package.json');assert(pkg.includes('14.0.0'));
+const pkg=JSON.parse(read('package.json'));assert(pkg.version.startsWith('14.0.'));
 console.log(`PASS: V14 CMS, ${routes.length} legal/FAQ/accessibility routes, ${fieldCount} approved-layout text fields, SEO, privacy consent and security checks.`);

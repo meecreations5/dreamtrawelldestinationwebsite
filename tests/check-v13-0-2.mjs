@@ -26,7 +26,7 @@ const home=file('app/(site)/page.jsx');
 assert.ok(home.includes('getPublicHomeHero()')&&home.includes('<HomeHeroBanner'));
 assert.ok(!home.includes("dests.find(d => d.slug === 'singapore')"));
 const rules=file('firestore.rules');
-assert.ok(rules.includes("id in ['catalogue','publicCopy','theme','homeHero']"));
+assert.ok(rules.includes("id in ['catalogue','publicCopy','theme','homeHero','social']"));
 assert.ok(rules.includes("id == 'homeHero' && validHomeHero()"));
 assert.ok(rules.includes('function validHomeHero()')&&rules.includes("request.resource.data.intervalSeconds in [6,8,12]"));
 const admin=file('components/home-hero-editor.jsx');

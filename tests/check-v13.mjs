@@ -20,7 +20,7 @@ const editor=text('components/theme-editor.jsx');
 assert(editor.includes('setDoc') && editor.includes("role==='super_admin'"));
 assert(editor.includes('serverTimestamp()') && editor.includes('validateTheme'));
 const rules=text('firestore.rules');
-assert(rules.includes("id in ['catalogue','publicCopy','theme','homeHero']"));
+assert(rules.includes("id in ['catalogue','publicCopy','theme','homeHero','social']"));
 assert(rules.includes("id == 'theme' && validTheme()"));
 assert(rules.includes('function validTheme()') && rules.includes('isSuperAdmin()'));
 assert(rules.includes('palette.keys().hasOnly'));
