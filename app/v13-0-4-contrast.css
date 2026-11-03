@@ -1,0 +1,72 @@
+/* V13.0.4: shared contrast correction for all seven destination banners and
+   other dark editorial surfaces. Load LAST, after Pearl Mist / V13.0.3.
+   Colours on image overlays are intentionally fixed for predictable contrast;
+   the underlying navy/red surfaces continue to follow the admin theme. */
+
+/* Destination images are darkened in the page component. Text on top of them
+   must never inherit the regular navy heading colour from Pearl Mist. */
+.public-site .destination-cover {
+  color: #FFFFFF;
+}
+.public-site .destination-cover .shell > h1 {
+  color: #FFFFFF;
+}
+.public-site .destination-cover .shell > p {
+  color: #EDF4FA;
+  opacity: 1;
+}
+.public-site .destination-cover .shell > .eyebrow {
+  color: #F9DBE2;
+}
+
+/* The old .public-site .btn-outline white surface was overriding .transparent,
+   resulting in white-on-white / apparently empty secondary buttons. */
+.public-site .destination-cover .destination-hero-buttons .btn-outline.transparent {
+  color: #FFFFFF;
+  background: rgba(8, 30, 54, .44);
+  border: 1px solid rgba(255, 255, 255, .82);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+}
+.public-site .destination-cover .destination-hero-buttons .btn-outline.transparent:hover,
+.public-site .destination-cover .destination-hero-buttons .btn-outline.transparent:focus-visible {
+  color: #FFFFFF;
+  background: rgba(8, 30, 54, .70);
+  border-color: #FFFFFF;
+}
+.public-site .destination-cover .destination-hero-buttons .btn-red {
+  color: #FFFFFF;
+}
+
+/* Same on-dark text contract for other navy/image-backed sections, including
+   the end-of-destination CTA, philosophy and homepage partnership panels. */
+.public-site :is(.v12-destination-cta, .v12-philosophy, .dark-panel, .dt-home-band--navy, .destination-v10-planning) :is(h1, h2, h3, h4) {
+  color: #FFFFFF;
+}
+.public-site :is(.v12-destination-cta, .v12-philosophy, .dark-panel, .dt-home-band--navy, .destination-v10-planning) :is(p, li) {
+  color: #E2ECF4;
+  opacity: 1;
+}
+.public-site :is(.v12-destination-cta, .v12-philosophy, .dark-panel, .dt-home-band--navy, .destination-v10-planning) .eyebrow {
+  color: #EAF1F5;
+}
+.public-site :is(.v12-destination-cta, .v12-philosophy, .dark-panel, .dt-home-band--navy) h2 em {
+  color: #EAF1F5;
+}
+
+/* Keep agent-planning panels, their labels, and actions readable if a different
+   navy colour is selected from Admin > Theme & Colours. */
+.public-site .destination-v10-planning :is(h3, p, span),
+.public-site .destination-v10-planning .destination-planning-link {
+  color: #FFFFFF;
+}
+.public-site .destination-v10-planning .destination-planning-link:hover {
+  color: #EAF1F5;
+}
+
+/* Legible mobile secondary action and headings without changing layout. */
+@media (max-width: 690px) {
+  .public-site .destination-cover .destination-hero-buttons .btn-outline.transparent {
+    min-height: 44px;
+  }
+}

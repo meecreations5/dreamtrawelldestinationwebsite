@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-label="Illustrative graphic for Vietnam Heritage Explorer">
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#194D61"/><stop offset="1" stop-color="#4B9797"/></linearGradient><linearGradient id="veil" x2="0" y2="1"><stop stop-color="#194D61" stop-opacity="0.10"/><stop offset="1" stop-color="#051d39" stop-opacity="0.95"/></linearGradient></defs>
+<rect width="960" height="640" fill="url(#sky)"/><circle cx="863" cy="133" r="77" fill="#F2CE9E" opacity="0.75"/>
+<path d="M0 340 Q190 258 360 300 T720 340 T960 290V640H0Z" fill="#4B9797" opacity=".35"/>
+<path d="M0 410 Q240 348 470 386 T960 400V640H0Z" fill="#194D61" opacity=".65"/>
+<path d="M0 475 Q210 420 420 470 T960 430V640H0Z" fill="#4B9797" opacity=".5"/>
+<path d="M0 520 Q230 495 440 520 T960 515V640H0Z" fill="#F2CE9E" opacity=".20"/>
+<path d="M0 0h960v640H0Z" fill="url(#veil)"/>
+<text x="72" y="100" fill="#ffffff" opacity=".85" font-size="17" letter-spacing="5" font-weight="700" font-family="Arial, sans-serif">DREAMTRAWELL  /  VIETNAM</text>
+<text x="72" y="350" fill="#ffffff" font-size="36" font-weight="750" font-family="Arial, sans-serif">Vietnam Heritage</text><text x="72" y="404" fill="#ffffff" font-size="36" font-weight="750" font-family="Arial, sans-serif">Explorer</text>
+<line x1="72" y1="480" x2="175" y2="480" stroke="#F2CE9E" stroke-width="4"/>
+<text x="72" y="594" fill="#ffffff" opacity=".82" font-family="Arial,sans-serif" font-size="15">Illustrative placeholder • Replace with approved package photograph</text></svg>

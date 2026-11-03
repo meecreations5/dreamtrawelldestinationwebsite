@@ -1,0 +1,66 @@
+/* V13.0.1 – homepage section rhythm.
+   Scoped exclusively to .dt-home; palette is derived from Admin > Theme & Colours.
+   Full-width section wrappers are deliberate, with .shell containers inside.
+*/
+.public-site .dt-home { background:var(--luxury-ivory); }
+.public-site .dt-home .home-hero {
+  background:linear-gradient(115deg,var(--luxury-ivory) 58%,color-mix(in srgb,var(--luxury-champagne) 15%,var(--luxury-surface)) 100%);
+  border-bottom:1px solid color-mix(in srgb,var(--luxury-champagne) 48%,var(--luxury-ivory));
+}
+.public-site .dt-home .finder-overlap { position:relative; z-index:2; }
+.public-site .dt-home .dt-home-band {
+  position:relative;
+  width:100%;
+  isolation:isolate;
+  border-top:1px solid color-mix(in srgb,var(--navy) 6%,transparent);
+}
+.public-site .dt-home .dt-home-band--white { background:var(--luxury-surface); }
+.public-site .dt-home .dt-home-band--ivory { background:color-mix(in srgb,var(--luxury-champagne) 15%,var(--luxury-ivory)); }
+.public-site .dt-home .dt-home-band--warm { background:color-mix(in srgb,var(--luxury-champagne) 24%,var(--luxury-ivory)); }
+.public-site .dt-home .dt-home-band--mist { background:color-mix(in srgb,var(--navy) 7%,var(--luxury-surface)); }
+.public-site .dt-home .dt-home-band--champagne {
+  background:color-mix(in srgb,var(--luxury-champagne) 52%,var(--luxury-ivory));
+  border-block:1px solid color-mix(in srgb,var(--luxury-champagne) 64%,var(--navy));
+}
+/* The background bands are visually distinct; the content grid remains centered. */
+.public-site .dt-home .dt-home-band > .shell { position:relative; }
+.public-site .dt-home .dt-home-band--white .section-heading::before,
+.public-site .dt-home .dt-home-band--ivory .section-heading::before,
+.public-site .dt-home .dt-home-band--mist .section-heading::before,
+.public-site .dt-home .dt-home-band--warm .section-heading::before {
+  content:'';
+  display:block;
+  position:absolute;
+  width:34px;
+  height:2px;
+  background:var(--luxury-champagne);
+  transform:translateY(-20px);
+}
+.public-site .dt-home .dt-home-band--mist .pack-card { background:var(--luxury-surface); }
+.public-site .dt-home .dt-home-band--ivory .v11-story-card { background:var(--luxury-surface); }
+.public-site .dt-home .dt-home-band--champagne .v12-contrast-grid p { color:var(--luxury-ink); opacity:.9; }
+/* The final action is a deliberate deep-navy conclusion, not a pale section. */
+.public-site .dt-home .dt-home-band--navy {
+  background:linear-gradient(120deg,var(--navy),color-mix(in srgb,var(--navy) 85%,var(--luxury-ink)));
+  color:#fff;
+  border-top:3px solid var(--luxury-champagne);
+}
+.public-site .dt-home .dt-home-band--navy .shell { display:flex;flex-direction:column;align-items:center;gap:14px; }
+.public-site .dt-home .dt-home-band--navy h2 { color:#fff; }
+.public-site .dt-home .dt-home-band--navy h2 em { color:var(--luxury-champagne); }
+.public-site .dt-home .dt-home-band--navy p { color:#fff; opacity:.83; }
+.public-site .dt-home .dt-home-band--navy .eyebrow { color:var(--luxury-champagne); }
+.public-site .dt-home .dt-home-band--navy .eyebrow::before { background:var(--luxury-champagne); }
+/* When testimonials are approved, keep them a distinct white section. */
+.public-site .dt-home > section.section-soft:not(.dt-home-band) {
+  background:var(--luxury-surface);
+  border-top:1px solid color-mix(in srgb,var(--luxury-champagne) 64%,var(--luxury-surface));
+}
+@media(max-width:690px){
+  .public-site .dt-home .dt-home-band { border-top-width:1px; }
+  .public-site .dt-home .dt-home-band--white .section-heading::before,
+  .public-site .dt-home .dt-home-band--ivory .section-heading::before,
+  .public-site .dt-home .dt-home-band--mist .section-heading::before,
+  .public-site .dt-home .dt-home-band--warm .section-heading::before { transform:translateY(-13px);width:26px; }
+  .public-site .dt-home .dt-home-band--navy .shell { gap:12px; }
+}

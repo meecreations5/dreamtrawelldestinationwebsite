@@ -1,0 +1,4 @@
+'use client';
+import { useState } from 'react';
+import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+export function TestimonialSlider({items}){const [index,setIndex]=useState(0);if(!items?.length)return null;const review=items[index];return <section className="section section-soft"><div className="shell v11-testimonials"><span className="eyebrow">APPROVED TRADE PARTNER VOICES</span><div className="v11-testimonial-content" aria-live="polite"><Quote size={25}/><blockquote>“{review.quote}”</blockquote><b>{review.name}</b><p>{review.agency} · {review.destination}</p></div><div className="v11-slider-controls"><button type="button" aria-label="Previous testimonial" onClick={()=>setIndex((index+items.length-1)%items.length)}><ChevronLeft size={19}/></button><span>{index+1} / {items.length}</span><button type="button" aria-label="Next testimonial" onClick={()=>setIndex((index+1)%items.length)}><ChevronRight size={19}/></button></div></div></section>}

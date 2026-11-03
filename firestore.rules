@@ -1,0 +1,305 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isStaff() {
+      return signedIn()
+        && exists(/databases/$(database)/documents/adminUsers/$(request.auth.uid))
+        && get(/databases/$(database)/documents/adminUsers/$(request.auth.uid)).data.active == true
+        && get(/databases/$(database)/documents/adminUsers/$(request.auth.uid)).data.role in ['admin','super_admin'];
+    }
+    function isSuperAdmin() {
+      return isStaff()
+        && get(/databases/$(database)/documents/adminUsers/$(request.auth.uid)).data.role == 'super_admin';
+    }
+    function validPublicCopy() {
+      return request.resource.data.keys().hasOnly(['copy','updatedAt','updatedBy'])
+        && request.resource.data.copy is map
+        && request.resource.data.copy.keys().hasOnly(['homeHeroLead','homeHeroEmphasis','homeHeroDescription','homeDestLead','homeDestEmphasis','homeDestDescription','aboutLead','aboutEmphasis','aboutDescription','partnersLead','partnersEmphasis','partnersDescription','servicesLead','servicesEmphasis','servicesDescription','contactLead','contactEmphasis','contactDescription','footerDescription'])
+        && request.resource.data.copy.keys().size() == 19
+        && request.resource.data.copy.footerDescription is string
+        && request.resource.data.copy.footerDescription.size() <= 500
+        && request.resource.data.copy.contactDescription is string
+        && request.resource.data.copy.contactDescription.size() <= 500
+        && request.resource.data.copy.contactEmphasis is string
+        && request.resource.data.copy.contactEmphasis.size() <= 500
+        && request.resource.data.copy.contactLead is string
+        && request.resource.data.copy.contactLead.size() <= 500
+        && request.resource.data.copy.servicesDescription is string
+        && request.resource.data.copy.servicesDescription.size() <= 500
+        && request.resource.data.copy.servicesEmphasis is string
+        && request.resource.data.copy.servicesEmphasis.size() <= 500
+        && request.resource.data.copy.servicesLead is string
+        && request.resource.data.copy.servicesLead.size() <= 500
+        && request.resource.data.copy.partnersDescription is string
+        && request.resource.data.copy.partnersDescription.size() <= 500
+        && request.resource.data.copy.partnersEmphasis is string
+        && request.resource.data.copy.partnersEmphasis.size() <= 500
+        && request.resource.data.copy.partnersLead is string
+        && request.resource.data.copy.partnersLead.size() <= 500
+        && request.resource.data.copy.aboutDescription is string
+        && request.resource.data.copy.aboutDescription.size() <= 500
+        && request.resource.data.copy.aboutEmphasis is string
+        && request.resource.data.copy.aboutEmphasis.size() <= 500
+        && request.resource.data.copy.aboutLead is string
+        && request.resource.data.copy.aboutLead.size() <= 500
+        && request.resource.data.copy.homeDestDescription is string
+        && request.resource.data.copy.homeDestDescription.size() <= 500
+        && request.resource.data.copy.homeDestEmphasis is string
+        && request.resource.data.copy.homeDestEmphasis.size() <= 500
+        && request.resource.data.copy.homeDestLead is string
+        && request.resource.data.copy.homeDestLead.size() <= 500
+        && request.resource.data.copy.homeHeroDescription is string
+        && request.resource.data.copy.homeHeroDescription.size() <= 500
+        && request.resource.data.copy.homeHeroEmphasis is string
+        && request.resource.data.copy.homeHeroEmphasis.size() <= 500
+        && request.resource.data.copy.homeHeroLead is string
+        && request.resource.data.copy.homeHeroLead.size() <= 500
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
+    function validTheme() {
+      return isSuperAdmin()
+        && request.resource.data.keys().hasOnly(['palette','updatedAt','updatedBy'])
+        && request.resource.data.keys().hasAll(['palette','updatedAt','updatedBy'])
+        && request.resource.data.palette is map
+        && request.resource.data.palette.keys().hasOnly(['navy','red','ivory','champagne','surface','ink'])
+        && request.resource.data.palette.keys().hasAll(['navy','red','ivory','champagne','surface','ink'])
+        && request.resource.data.palette.navy is string && request.resource.data.palette.navy.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.palette.red is string && request.resource.data.palette.red.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.palette.ivory is string && request.resource.data.palette.ivory.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.palette.champagne is string && request.resource.data.palette.champagne.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.palette.surface is string && request.resource.data.palette.surface.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.palette.ink is string && request.resource.data.palette.ink.matches('^#[0-9A-Fa-f]{6}$')
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
+    function validHomeHero() {
+      return isSuperAdmin()
+        && request.resource.data.keys().hasOnly(['mode','destinationSlug','intervalSeconds','updatedBy','updatedAt'])
+        && request.resource.data.keys().hasAll(['mode','destinationSlug','intervalSeconds','updatedBy','updatedAt'])
+        && request.resource.data.mode in ['auto','fixed']
+        && request.resource.data.destinationSlug is string
+        && request.resource.data.destinationSlug.size() <= 100
+        && (request.resource.data.destinationSlug == '' || request.resource.data.destinationSlug.matches('^[a-z0-9]+(-[a-z0-9]+)*$'))
+        && (request.resource.data.mode != 'fixed' || request.resource.data.destinationSlug.size() > 0)
+        && request.resource.data.intervalSeconds in [6,8,12]
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
+    function validSlug(slug) { return slug.matches('^[a-z0-9]+(-[a-z0-9]+)*$') && slug.size() <= 100; }
+    function validContent(id, testimonial) {
+      return validSlug(id)
+        && request.resource.data.slug == id
+        && request.resource.data.status in ['draft','in_review','published','archived']
+        && (request.resource.data.status != 'published' || isSuperAdmin())
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time
+        && (!request.resource.data.keys().hasAny(['seoTitle']) || (request.resource.data.seoTitle is string && request.resource.data.seoTitle.size() <= 120))
+        && (!request.resource.data.keys().hasAny(['seoDescription']) || (request.resource.data.seoDescription is string && request.resource.data.seoDescription.size() <= 250))
+        && (!testimonial || request.resource.data.status != 'published' || request.resource.data.consentVerified == true)
+        && request.resource.data.keys().hasOnly(testimonial
+          ? ['slug','name','agency','quote','destination','status','consentVerified','createdAt','updatedAt','updatedBy']
+          : ['slug','name','eyebrow','summary','hero','areas','activities','guidance','destinationHeadline','destinationOverview','sellingAreas','travellerProfiles','planningHeadline','planningNote','experienceHighlights','areaProfiles','standardExperiences','offbeatIdeas','hotelGuidance','operationalNotes','imageAlt','gallery','seoTitle','seoDescription', 'title','destination','category','duration','nights','audience','image','days','inclusions','upgrades','operationsChecklist','exclusionsNote', 'validFrom','validUntil','status','createdAt','updatedAt','updatedBy']);
+    }
+    function validSitePage(id) {
+      return isSuperAdmin()
+        && id in ['home','destinations','packages','programmes','services','partners','about','contact','offers','testimonials','faqs','privacy-policy','terms-of-use','cookies','disclaimer','accessibility']
+        && request.resource.data.keys().hasOnly(['slug','status','heroTitle','heroDescription','contactDetails','textOverrides','sections','faqs','seoTitle','seoDescription','socialImage','updatedBy','updatedAt'])
+        && request.resource.data.keys().hasAll(['slug','status','heroTitle','heroDescription','contactDetails','textOverrides','sections','faqs','seoTitle','seoDescription','socialImage','updatedBy','updatedAt'])
+        && request.resource.data.slug == id
+        && request.resource.data.status in ['draft','published']
+        && request.resource.data.heroTitle is string && request.resource.data.heroTitle.size() <= 180
+        && request.resource.data.heroDescription is string && request.resource.data.heroDescription.size() <= 600
+        && request.resource.data.contactDetails is map && request.resource.data.contactDetails.keys().hasOnly(['location','email','phone','privacyEmail','legalName'])
+        && request.resource.data.textOverrides is map && request.resource.data.textOverrides.keys().size() <= 100
+        && request.resource.data.sections is list && request.resource.data.sections.size() <= 24
+        && request.resource.data.faqs is list && request.resource.data.faqs.size() <= 30
+        && request.resource.data.seoTitle is string && request.resource.data.seoTitle.size() > 0 && request.resource.data.seoTitle.size() <= 120
+        && request.resource.data.seoDescription is string && request.resource.data.seoDescription.size() > 0 && request.resource.data.seoDescription.size() <= 250
+        && request.resource.data.socialImage is string && request.resource.data.socialImage.size() <= 1200
+        && (request.resource.data.socialImage == '' || request.resource.data.socialImage.matches('^https://.*$'))
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
+    function validEnquiry() {
+      return signedIn()
+        && request.resource.data.submittedBy == request.auth.uid
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.source == 'dreamtrawell_website'
+        && request.resource.data.status == 'new_enquiry'
+        && request.resource.data.crmSyncStatus == 'pending_mapping'
+        && request.resource.data.consentCaptured == true
+        && request.resource.data.reference is string
+        && request.resource.data.reference.matches('^WEB-[A-Z0-9]{10}$')
+        && request.resource.data.destination is string && request.resource.data.destination.size() >= 2 && request.resource.data.destination.size() <= 70
+        && request.resource.data.packageSlug is string
+        && validSlug(request.resource.data.packageSlug)
+        && request.resource.data.agencyName is string && request.resource.data.agencyName.size() >= 2 && request.resource.data.agencyName.size() <= 150
+        && request.resource.data.contactName is string && request.resource.data.contactName.size() >= 2 && request.resource.data.contactName.size() <= 120
+        && request.resource.data.email is string && request.resource.data.email.size() <= 180
+        && request.resource.data.email.matches('^[^ @]+@[^ @]+\\.[^ @]+$')
+        && request.resource.data.phone is string && request.resource.data.phone.size() >= 8 && request.resource.data.phone.size() <= 24
+        && request.resource.data.adults is int && request.resource.data.adults >= 1 && request.resource.data.adults <= 500
+        && request.resource.data.children is int && request.resource.data.children >= 0 && request.resource.data.children <= 100
+        && request.resource.data.infants is int && request.resource.data.infants >= 0 && request.resource.data.infants <= 50
+        && request.resource.data.rooms is int && request.resource.data.rooms >= 1 && request.resource.data.rooms <= 300
+        && request.resource.data.nights is int && request.resource.data.nights >= 1 && request.resource.data.nights <= 45
+        && request.resource.data.notes is string && request.resource.data.notes.size() <= 3500
+        && request.resource.data.arrivalDate is string && request.resource.data.arrivalDate.size() <= 30
+        && request.resource.data.childAges is string && request.resource.data.childAges.size() <= 130
+        && request.resource.data.budget is string && request.resource.data.budget.size() <= 180
+        && request.resource.data.deadline is string && request.resource.data.deadline.size() <= 40
+        && request.resource.data.hotelCategory is string && request.resource.data.hotelCategory.size() <= 80
+        && request.resource.data.mealPlan is string && request.resource.data.mealPlan.size() <= 80
+        && request.resource.data.transferType is string && request.resource.data.transferType.size() <= 100
+        && request.resource.data.travelPurpose is string && request.resource.data.travelPurpose.size() <= 100
+        && request.resource.data.daySelections is list && request.resource.data.daySelections.size() <= 50
+        && request.resource.data.upgrades is list && request.resource.data.upgrades.size() <= 40
+        && request.resource.data.keys().hasOnly(['packageSlug','destination','arrivalDate','nights','hotelCategory','mealPlan','transferType','travelPurpose','rooms','adults','children','childAges','infants','budget','deadline','daySelections','upgrades','notes','agencyName','contactName','email','phone','reference','source','status','crmSyncStatus','submittedBy','consentCaptured','createdAt']);
+    }
+    // First super_admin bootstrapped manually in Firebase Console.
+    // A super_admin can provision OTHER staff; never elevate or modify their own record.
+    function validStaffRecord(uid) {
+      return isSuperAdmin()
+        && uid != request.auth.uid
+        && request.resource.data.keys().hasOnly(['role','active','email','displayName','createdAt','updatedAt','updatedBy'])
+        && request.resource.data.keys().hasAll(['role','active','updatedBy','updatedAt'])
+        && request.resource.data.role in ['admin','super_admin']
+        && request.resource.data.active is bool
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+    }
+    match /adminUsers/{uid} {
+      allow get: if signedIn() && (request.auth.uid == uid || isSuperAdmin());
+      allow list: if isSuperAdmin();
+      allow create: if validStaffRecord(uid) && request.resource.data.createdAt == request.time;
+      allow update: if validStaffRecord(uid)
+        && (!resource.data.keys().hasAny(['createdAt']) || request.resource.data.createdAt == resource.data.createdAt);
+      allow delete: if false;
+    }
+    match /siteSettings/{id} {
+      allow get: if id in ['catalogue','publicCopy','theme','homeHero'];
+      allow list, delete: if false;
+      allow create, update: if
+        (id == 'catalogue' && isSuperAdmin()
+        && request.resource.data.keys().hasOnly(['initialized','updatedAt','updatedBy'])
+        && request.resource.data.initialized == true
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time)
+        || (id == 'publicCopy' && isSuperAdmin() && validPublicCopy())
+        || (id == 'theme' && validTheme())
+        || (id == 'homeHero' && validHomeHero());
+    }
+    match /sitePageDrafts/{id} {
+      // Draft edits stay private and do not affect an already published page.
+      allow get: if isStaff();
+      allow list: if false;
+      allow create, update: if validSitePage(id) && request.resource.data.status == 'draft';
+      allow delete: if isSuperAdmin();
+    }
+    match /sitePages/{id} {
+      // Public may GET a reviewed published page, never enumerate unpublished content.
+      allow get: if isStaff() || resource.data.status == 'published';
+      allow list, delete: if false;
+      allow create, update: if validSitePage(id);
+    }
+    match /siteDestinations/{id} {
+      allow get, list: if isStaff() || resource.data.status == 'published';
+      allow create: if isStaff() && validContent(id, false) && request.resource.data.createdAt == request.time;
+      allow update: if isStaff() && validContent(id, false)
+        && request.resource.data.slug == resource.data.slug
+        && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if false;
+    }
+    match /sitePackages/{id} {
+      allow get, list: if isStaff() || resource.data.status == 'published';
+      allow create: if isStaff() && validContent(id, false) && request.resource.data.createdAt == request.time;
+      allow update: if isStaff() && validContent(id, false)
+        && request.resource.data.slug == resource.data.slug
+        && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if false;
+    }
+    match /siteTestimonials/{id} {
+      allow get, list: if isStaff() || (resource.data.status == 'published' && resource.data.consentVerified == true);
+      allow create: if isStaff() && validContent(id, true) && request.resource.data.createdAt == request.time;
+      allow update: if isStaff() && validContent(id, true) && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if false;
+    }
+    match /sitePromotions/{id} {
+      allow get, list: if isStaff() || resource.data.status == 'published';
+      allow create: if isStaff() && validContent(id, false) && request.resource.data.createdAt == request.time;
+      allow update: if isStaff() && validContent(id, false) && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if false;
+    }
+    match /websiteEnquiries/{id} {
+      allow create: if validEnquiry();
+      allow get, list: if isStaff();
+      allow update: if isStaff()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','assignedTo','priority','internalNote','crmSyncStatus','crmLeadId','updatedAt','updatedBy'])
+        && request.resource.data.status in ['new_enquiry','in_progress','quoted','closed']
+        && (!request.resource.data.keys().hasAny(['priority']) || request.resource.data.priority in ['normal','high','urgent'])
+        && (!request.resource.data.keys().hasAny(['crmSyncStatus']) || request.resource.data.crmSyncStatus in ['pending_mapping','exported','linked'])
+        && (!request.resource.data.keys().hasAny(['assignedTo']) || (request.resource.data.assignedTo is string && request.resource.data.assignedTo.size() <= 150))
+        && (!request.resource.data.keys().hasAny(['internalNote']) || (request.resource.data.internalNote is string && request.resource.data.internalNote.size() <= 1500))
+        && (!request.resource.data.keys().hasAny(['crmLeadId']) || (request.resource.data.crmLeadId is string && request.resource.data.crmLeadId.size() <= 150))
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+    match /siteRevisions/{id} {
+      allow get,list: if isStaff();
+      allow create: if isStaff()
+        && request.resource.data.keys().hasOnly(['recordKey','type','slug','action','snapshot','createdBy','createdAt'])
+        && request.resource.data.keys().hasAll(['recordKey','type','slug','action','snapshot','createdBy','createdAt'])
+        && request.resource.data.type in ['destinations','packages','promotions','testimonials']
+        && request.resource.data.recordKey == request.resource.data.type + ':' + request.resource.data.slug
+        && validSlug(request.resource.data.slug)
+        && request.resource.data.snapshot is map
+        && request.resource.data.snapshot.keys().size() <= 40
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.createdAt == request.time;
+      allow update,delete: if false;
+    }
+    match /siteMedia/{id} {
+      allow get,list: if isStaff();
+      allow create: if isStaff()
+        && request.resource.data.keys().hasOnly(['url','alt','rights','destination','name','contentType','size','createdAt','createdBy'])
+        && request.resource.data.url is string && request.resource.data.url.size() <= 1500
+        && request.resource.data.alt is string && request.resource.data.alt.size() > 0 && request.resource.data.alt.size() <= 240
+        && request.resource.data.rights is string && request.resource.data.rights.size() > 0 && request.resource.data.rights.size() <= 220
+        && request.resource.data.name is string && request.resource.data.name.size() <= 180
+        && request.resource.data.destination is string && request.resource.data.destination.size() <= 80
+        && request.resource.data.contentType in ['image/png','image/jpeg','image/webp']
+        && request.resource.data.size is int && request.resource.data.size <= 5000000
+        && request.resource.data.createdBy == request.auth.uid && request.resource.data.createdAt == request.time;
+      allow update,delete: if false;
+    }
+    match /siteKnowledge/{id} {
+      allow get,list: if isStaff() || resource.data.status == 'published';
+      allow create: if isStaff() && validSlug(id)
+        && request.resource.data.keys().hasOnly(['slug','kind','name','destination','description','guidance','status','createdAt','updatedAt','updatedBy'])
+        && request.resource.data.slug == id
+        && request.resource.data.kind in ['experience','hotel']
+        && request.resource.data.status == 'draft'
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 160
+        && request.resource.data.destination is string && request.resource.data.destination.size() > 0 && request.resource.data.destination.size() <= 80
+        && request.resource.data.description is string && request.resource.data.description.size() <= 2000
+        && request.resource.data.guidance is string && request.resource.data.guidance.size() <= 1200
+        && request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+      allow update: if isStaff() && validSlug(id)
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','destination','description','guidance','status','updatedAt','updatedBy'])
+        && request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 160
+        && request.resource.data.destination is string && request.resource.data.destination.size() > 0 && request.resource.data.destination.size() <= 80
+        && request.resource.data.description is string && request.resource.data.description.size() <= 2000
+        && request.resource.data.guidance is string && request.resource.data.guidance.size() <= 1200
+        && request.resource.data.status in ['draft','in_review','published','archived']
+        && (request.resource.data.status != 'published' || isSuperAdmin())
+        && request.resource.data.updatedBy == request.auth.uid && request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+    match /websiteLeadIntake/{id} { allow read, write: if false; }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dreamtrawell-dmc-next-firebase",
+  "version": "14.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test:data": "node tests/check-data.mjs",
+    "check:syntax": "node tests/check-js-source.mjs",
+    "test:security": "node tests/check-security.mjs",
+    "diagnose:firestore": "node --env-file=.env.local scripts/diagnose-public-firestore.mjs",
+    "test:v10": "node tests/check-v10.mjs",
+    "test:v11": "node tests/check-v11.mjs",
+    "test:v12": "node tests/check-v12.mjs",
+    "test:v12.1": "node tests/check-v12-1.mjs",
+    "test:image-boundary": "node tests/check-image-boundary.mjs",
+    "test:v13": "node tests/check-v13.mjs",
+    "test:v13.0.2": "node tests/check-v13-0-2.mjs",
+    "test:v13.0.3": "node tests/check-v13-0-3.mjs",
+    "test:v14": "node tests/check-v14.mjs"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "firebase": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "zod": "^4.0.0"
+  }
+}

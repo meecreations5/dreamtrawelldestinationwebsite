@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "package-bali-premium",
+    "title": "Bali Experiences",
+    "destination": "Bali",
+    "category": "Premium",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Couples and experiential FIT",
+    "summary": "A carefully paced two-base itinerary rather than an overpacked day-tour schedule.",
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive at South Bali base",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Uluwatu and beaches",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Move to Ubud with scenic stops",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Ubud temples, rice terraces and local experiences",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Wellness or nature-led free day",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "5 nights across agreed hotel areas",
+      "Airport / inter-hotel transfers",
+      "Private touring days",
+      "Experiences selected by profile"
+    ],
+    "upgrades": [
+      "Premium villa",
+      "Wellness session",
+      "Photoshoot"
+    ],
+    "slug": "package-bali-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Bali Experiences in Bali"
+  },
+  {
+    "id": "package-bali-specialised",
+    "title": "Bali Honeymoon Villa Escape",
+    "destination": "Bali",
+    "category": "Specialised",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Honeymooners",
+    "summary": "A flexible honeymoon framework guided by villa location and privacy.",
+    "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Airport welcome and villa check-in",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "South Bali sunset and dinner option",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Ubud scenic day",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Optional couple activity / spa",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Private leisure day",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "5 nights selected romantic accommodation",
+      "Private airport transfers",
+      "Chosen private sightseeing",
+      "Couple-oriented itinerary planning"
+    ],
+    "upgrades": [
+      "Pool villa upgrade",
+      "Floating breakfast where offered",
+      "Anniversary setup"
+    ],
+    "slug": "package-bali-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Bali Honeymoon Villa Escape in Bali"
+  },
+  {
+    "id": "package-bali-standard",
+    "title": "Bali Discovery",
+    "destination": "Bali",
+    "category": "Standard",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "First-time couples and families",
+    "summary": "A balanced introduction to Bali culture and coast.",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival and hotel transfer",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Ubud culture and scenic landscapes",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "South Bali / Uluwatu sunset route",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Leisure day or selected activity",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights hotel with breakfast",
+      "Airport transfers",
+      "Ubud sightseeing circuit",
+      "South Bali tour"
+    ],
+    "upgrades": [
+      "Water sports",
+      "Spa experience",
+      "Private dinner"
+    ],
+    "slug": "package-bali-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Bali Discovery in Bali"
+  },
+  {
+    "id": "package-dubai-premium",
+    "title": "Dubai Highlights",
+    "destination": "Dubai",
+    "category": "Premium",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Families and premium leisure",
+    "summary": "An upgraded city-and-desert route with flexible attraction choices.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive and relaxed evening",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Dubai city tour with selected Burj Khalifa experience",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Aquarium or Dubai Frame / Museum of the Future based on ticket slots",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Desert safari and evening meal",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure transfer",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights hotel with breakfast",
+      "Airport transfers",
+      "Selected city tour and attraction planning",
+      "Desert safari arrangement"
+    ],
+    "upgrades": [
+      "Abu Dhabi excursion",
+      "Marina dhow cruise",
+      "Private guide"
+    ],
+    "slug": "package-dubai-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Dubai Highlights in Dubai"
+  },
+  {
+    "id": "package-dubai-specialised",
+    "title": "Dubai Family & Theme Parks",
+    "destination": "Dubai",
+    "category": "Specialised",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Families with children",
+    "summary": "A family itinerary where age suitability and attraction timings lead planning.",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival and hotel check-in",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Family-friendly city sights and waterfront",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "One theme park selected for child ages",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Desert hospitality or resort leisure day",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure transfer",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights family-suitable hotel",
+      "Return airport transfers",
+      "One planned theme-park day",
+      "Family-paced itinerary framework"
+    ],
+    "upgrades": [
+      "Aquaventure",
+      "Lost Chambers",
+      "Private transfers"
+    ],
+    "slug": "package-dubai-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Dubai Family & Theme Parks in Dubai"
+  },
+  {
+    "id": "package-dubai-standard",
+    "title": "Dubai City Essentials",
+    "destination": "Dubai",
+    "category": "Standard",
+    "duration": "3N / 4D",
+    "nights": 3,
+    "audience": "First-time FIT and families",
+    "summary": "Value-led Dubai essentials with clear sightseeing and transfer logistics.",
+    "image": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive, private airport pickup and check-in",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Half-day Dubai city orientation; optional Burj Khalifa ticket",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Desert safari with chosen sharing/private basis and BBQ dinner",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Departure airport transfer",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "3 nights hotel with breakfast",
+      "Airport transfers as agreed",
+      "City orientation service",
+      "Desert safari experience, subject to confirmation"
+    ],
+    "upgrades": [
+      "Dhow cruise",
+      "Dubai Frame",
+      "Burj Khalifa entry"
+    ],
+    "slug": "package-dubai-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Dubai City Essentials in Dubai"
+  },
+  {
+    "id": "package-malaysia-premium",
+    "title": "Kuala Lumpur & Highlands",
+    "destination": "Malaysia",
+    "category": "Premium",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Families and groups",
+    "summary": "A paced mix of city, highlands and optional heritage.",
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival in KL",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "City highlights and landmark stops",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Genting Highlands programme",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Malacca heritage or extended KL leisure day",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights hotel",
+      "Transfers",
+      "City tour",
+      "Genting visit coordination"
+    ],
+    "upgrades": [
+      "Theme park access",
+      "Private Malacca day",
+      "Hotel category upgrade"
+    ],
+    "slug": "package-malaysia-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Kuala Lumpur & Highlands in Malaysia"
+  },
+  {
+    "id": "package-malaysia-specialised",
+    "title": "Malaysia City & Island",
+    "destination": "Malaysia",
+    "category": "Specialised",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Couples and mixed-age families",
+    "summary": "A city-and-beach combination requiring confirmed internal air sectors.",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive Kuala Lumpur",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "KL city discovery",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Internal flight to Langkawi; hotel transfer",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Island orientation and optional experiences",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Island leisure",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Departure by booked route",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Hotels in Kuala Lumpur and Langkawi",
+      "Land transfers",
+      "Destination touring guidance",
+      "Intercity travel coordination"
+    ],
+    "upgrades": [
+      "Domestic air tickets",
+      "Island cruise",
+      "Beach resort upgrade"
+    ],
+    "slug": "package-malaysia-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Malaysia City & Island in Malaysia"
+  },
+  {
+    "id": "package-malaysia-standard",
+    "title": "Kuala Lumpur Essentials",
+    "destination": "Malaysia",
+    "category": "Standard",
+    "duration": "3N / 4D",
+    "nights": 3,
+    "audience": "City-break families",
+    "summary": "Short Kuala Lumpur touring with highland experience.",
+    "image": "https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive Kuala Lumpur",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "City sights and shopping",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Genting Highlands excursion, transport/tickets as agreed",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "KL hotel with breakfast",
+      "Airport transfers",
+      "Half-day city tour",
+      "Genting excursion transport"
+    ],
+    "upgrades": [
+      "Petronas Skybridge ticket",
+      "KL Tower",
+      "Batu Caves stop"
+    ],
+    "slug": "package-malaysia-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Kuala Lumpur Essentials in Malaysia"
+  },
+  {
+    "id": "package-maldives-premium",
+    "title": "Maldives Resort Experience",
+    "destination": "Maldives",
+    "category": "Premium",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Premium couples and families",
+    "summary": "Time to enjoy the resort without excessive day touring.",
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival and onward resort transfer",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Beach or lagoon leisure",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Guided water activities subject to conditions",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Spa or sunset cruise as selected",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Return transfers and departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights resort stay",
+      "Chosen meal plan",
+      "Resort transfer by applicable mode",
+      "Guest logistics and resort communication"
+    ],
+    "upgrades": [
+      "Water villa upgrade",
+      "Seaplane transfer if resort requires",
+      "Private dining"
+    ],
+    "slug": "package-maldives-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Maldives Resort Experience in Maldives"
+  },
+  {
+    "id": "package-maldives-specialised",
+    "title": "Maldives Honeymoon Villas",
+    "destination": "Maldives",
+    "category": "Specialised",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Honeymoon and celebrations",
+    "summary": "Celebration-led resort planning with transparent villa and transfer details.",
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Airport arrival; resort transfer according to route",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Beach villa / romantic welcome arrangements",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Optional split stay or overwater villa night",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Sunset dining, spa or photo session options",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure transfer",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights selected resort villa category",
+      "Selected meal plan",
+      "Airport / resort transfer coordination",
+      "Special-occasion request handling"
+    ],
+    "upgrades": [
+      "Overwater villa",
+      "Private dinner",
+      "Couple spa"
+    ],
+    "slug": "package-maldives-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Maldives Honeymoon Villas in Maldives"
+  },
+  {
+    "id": "package-maldives-standard",
+    "title": "Maldives Island Escape",
+    "destination": "Maldives",
+    "category": "Standard",
+    "duration": "3N / 4D",
+    "nights": 3,
+    "audience": "Couples, families and short breaks",
+    "summary": "A simple island break built around resort selection, meal plan and transfers.",
+    "image": "https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive at Velana Airport; resort-arranged speedboat transfer if suitable",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Beach leisure and optional snorkelling",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Resort facilities / optional marine excursion",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Return transfer and departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "3 nights resort accommodation",
+      "Agreed meal plan",
+      "Resort-arranged transfers per resort location",
+      "Stay and arrival coordination"
+    ],
+    "upgrades": [
+      "All-inclusive meal plan",
+      "Sunset cruise",
+      "Beach villa upgrade"
+    ],
+    "slug": "package-maldives-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Maldives Island Escape in Maldives"
+  },
+  {
+    "id": "package-singapore-premium",
+    "title": "Singapore Family Discovery",
+    "destination": "Singapore",
+    "category": "Premium",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Families and multi-generation groups",
+    "summary": "Extra time for signature family attractions with sensible routing.",
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival and easy evening",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Gardens by the Bay and Marina Bay",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Sentosa day with confirmed ticket slots",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Mandai wildlife experiences, selected to suit ages",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights family-suitable stay",
+      "Return airport transfers",
+      "Sentosa and Mandai planning",
+      "Ground touring as agreed"
+    ],
+    "upgrades": [
+      "Universal Studios Singapore",
+      "Singapore Oceanarium",
+      "Private vehicle"
+    ],
+    "slug": "package-singapore-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Singapore Family Discovery in Singapore"
+  },
+  {
+    "id": "package-singapore-specialised",
+    "title": "Singapore Attractions Focus",
+    "destination": "Singapore",
+    "category": "Specialised",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Attraction-led families",
+    "summary": "An attraction-heavy option for guests wanting a fuller activity plan.",
+    "image": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Universal Studios Singapore or equivalent major attraction",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Mandai wildlife experiences",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "City icons plus Sentosa or leisure choice",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "4 nights accommodation",
+      "Airport transfers",
+      "Attraction-led planning",
+      "Ticket coordination"
+    ],
+    "upgrades": [
+      "Luxury hotel upgrade",
+      "Private city tour",
+      "Evening show"
+    ],
+    "slug": "package-singapore-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Singapore Attractions Focus in Singapore"
+  },
+  {
+    "id": "package-singapore-standard",
+    "title": "Singapore Essentials",
+    "destination": "Singapore",
+    "category": "Standard",
+    "duration": "3N / 4D",
+    "nights": 3,
+    "audience": "First-time city visitors",
+    "summary": "A simple city and island discovery programme.",
+    "image": "https://images.unsplash.com/photo-1496939376851-89342e90adcd?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival and hotel transfer",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "City highlights with Marina Bay and Gardens by the Bay options",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Sentosa experience with chosen attraction tickets",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "3 nights hotel with breakfast",
+      "Airport transfers",
+      "Indicative city orientation",
+      "Selected Sentosa experience"
+    ],
+    "upgrades": [
+      "Night Safari",
+      "River cruise",
+      "Extra attraction tickets"
+    ],
+    "slug": "package-singapore-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Singapore Essentials in Singapore"
+  },
+  {
+    "id": "package-thailand-premium",
+    "title": "Phuket & Krabi Escape",
+    "destination": "Thailand",
+    "category": "Premium",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Beach travellers and couples",
+    "summary": "Two southern beach bases, planned with weather and transfers in mind.",
+    "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive in Phuket",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Phuket beach and local discovery",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Selected Phi Phi island trip if conditions permit",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Road transfer to Krabi with sightseeing option",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Krabi leisure or island activity",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Departure from suitable airport",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Hotels in two beach bases",
+      "Airport and intercity transfers",
+      "Chosen boat tour subject to weather",
+      "Private or sharing touring selection"
+    ],
+    "upgrades": [
+      "Premium boat trip",
+      "Private beachfront stay",
+      "Spa experience"
+    ],
+    "slug": "package-thailand-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Phuket & Krabi Escape in Thailand"
+  },
+  {
+    "id": "package-thailand-specialised",
+    "title": "Thailand Romantic Coast",
+    "destination": "Thailand",
+    "category": "Specialised",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Couples and honeymooners",
+    "summary": "Designed for slower travel and memorable couple experiences.",
+    "image": "https://images.unsplash.com/photo-1508004680771-708b02aabdc0?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival in Phuket",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Private scenic coast touring",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Optional island or long-tail boat experience",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Transfer to quieter Krabi stay",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Couple experiences and leisure",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Romantic-category hotel options",
+      "Airport / intercity transfer",
+      "One curated sightseeing day",
+      "Flexibility for couple activities"
+    ],
+    "upgrades": [
+      "Private pool villa",
+      "Sunset dinner",
+      "Professional photo session"
+    ],
+    "slug": "package-thailand-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Thailand Romantic Coast in Thailand"
+  },
+  {
+    "id": "package-thailand-standard",
+    "title": "Bangkok & Pattaya Highlights",
+    "destination": "Thailand",
+    "category": "Standard",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "First-time families and small groups",
+    "summary": "A practical first-time Thailand circuit.",
+    "image": "https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive Bangkok; transfer to Pattaya",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Pattaya Coral Island or other confirmed seaside activity",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Nong Nooch Garden / selected Pattaya attractions",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Transfer to Bangkok; city discovery",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Bangkok departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Pattaya and Bangkok hotel nights",
+      "Airport / intercity transfers",
+      "Selected city and Pattaya touring",
+      "Guidance on optional show tickets"
+    ],
+    "upgrades": [
+      "Alcazar show",
+      "Safari World",
+      "Chao Phraya cruise"
+    ],
+    "slug": "package-thailand-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Bangkok & Pattaya Highlights in Thailand"
+  },
+  {
+    "id": "package-vietnam-premium",
+    "title": "Vietnam Highlights",
+    "destination": "Vietnam",
+    "category": "Premium",
+    "duration": "6N / 7D",
+    "nights": 6,
+    "audience": "Culture-led couples and families",
+    "summary": "Northern landscapes and central heritage across a manageable route.",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrival Hanoi",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Hanoi city and neighbourhoods",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Ha Long Bay cruise",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Return and onward domestic flight to central Vietnam",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Hoi An old town discovery",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Da Nang and nearby experiences",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 07",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Multi-city stays",
+      "Transfers and itinerary coordination",
+      "Hanoi / central Vietnam sightseeing",
+      "Cruise coordination"
+    ],
+    "upgrades": [
+      "Domestic flights",
+      "Ba Na Hills",
+      "Hue extension"
+    ],
+    "slug": "package-vietnam-premium",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Vietnam Highlights in Vietnam"
+  },
+  {
+    "id": "package-vietnam-specialised",
+    "title": "Vietnam Heritage Explorer",
+    "destination": "Vietnam",
+    "category": "Specialised",
+    "duration": "7N / 8D",
+    "nights": 7,
+    "audience": "Culture-oriented groups",
+    "summary": "A three-region programme needing confirmed air schedules and ample transfer buffers.",
+    "image": "https://images.unsplash.com/photo-1555921015-5532091f6026?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive Hanoi",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Hanoi culture",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Ha Long Bay cruise",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Fly to Da Nang; Hoi An",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Central heritage programme",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 06",
+        "title": "Fly to Ho Chi Minh City",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 07",
+        "title": "City and Mekong or Cu Chi choice",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 08",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Hotels across selected cities",
+      "Ground transfers",
+      "Selected guided experiences",
+      "Cruise option as agreed"
+    ],
+    "upgrades": [
+      "Domestic flight sectors",
+      "Private group guide",
+      "Cultural dining experiences"
+    ],
+    "slug": "package-vietnam-specialised",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Vietnam Heritage Explorer in Vietnam"
+  },
+  {
+    "id": "package-vietnam-standard",
+    "title": "Hanoi & Ha Long Essentials",
+    "destination": "Vietnam",
+    "category": "Standard",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "First-time culture and scenery",
+    "summary": "Classic northern Vietnam with a confirmed cruise schedule.",
+    "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "DAY 01",
+        "title": "Arrive Hanoi",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 02",
+        "title": "Hanoi heritage and local city touring",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 03",
+        "title": "Transfer to Ha Long Bay and overnight cruise",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 04",
+        "title": "Return to Hanoi; city leisure",
+        "description": "",
+        "included": true
+      },
+      {
+        "label": "DAY 05",
+        "title": "Departure",
+        "description": "",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Hanoi hotel and cruise arrangements",
+      "Airport and road transfers",
+      "Hanoi sightseeing",
+      "Cruise cabin and meals as contracted"
+    ],
+    "upgrades": [
+      "Ninh Binh",
+      "Higher cruise class",
+      "Private guide"
+    ],
+    "slug": "package-vietnam-standard",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Hanoi & Ha Long Essentials in Vietnam"
+  },
+  {
+    "id": "programme-bali-slow-escape",
+    "title": "Bali Slow Escape",
+    "destination": "Bali",
+    "category": "Trade programme",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Couples · honeymooners · relaxed FIT",
+    "summary": "A slower itinerary combining Ubud’s landscapes with southern Bali’s coast, with space for privacy and time together.",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrive & continue to Ubud",
+        "description": "Airport arrival, private transfer to the Ubud area and time to unwind.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Ubud landscapes",
+        "description": "A relaxed experience through rice terraces, craft villages and scenic stops depending on location and personal interests.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Ubud to South Bali",
+        "description": "Transfer to the coastal stay. A waterfall or cultural stop can be planned if routing permits.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Coastal discovery",
+        "description": "Choose a beach, temple or sunset viewpoint day with enough time to enjoy the hotel.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Free day or tailored experience",
+        "description": "Optional wellness session, cooking experience, water sports or a private sunset dinner.",
+        "included": true
+      },
+      {
+        "label": "Day 6",
+        "title": "Departure",
+        "description": "Private transfer to the airport with adequate traffic buffer.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Suggested split stay between Ubud and the coast",
+      "Breakfast plan as selected",
+      "Airport and inter-hotel transfers",
+      "Selected private touring as agreed"
+    ],
+    "upgrades": [
+      "Private pool villa upgrade",
+      "Balinese cooking or cultural session",
+      "Uluwatu sunset visit",
+      "Spa / wellness experience",
+      "Nusa Penida excursion subject to sea conditions"
+    ],
+    "slug": "programme-bali-slow-escape",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Bali Slow Escape in Bali",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-dubai-corporate-incentive",
+    "title": "Dubai Corporate Incentive",
+    "destination": "Dubai",
+    "category": "Trade programme",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Corporate incentives · meetings · team travel",
+    "summary": "A flexible corporate journey combining meeting logistics, networking space and memorable Dubai experiences.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Group arrivals & registration",
+        "description": "Coordinated airport arrivals, room allocation support and welcome desk planning.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Meeting or conference day",
+        "description": "Venue layout, AV, transfers and catering are scoped to the event brief; optional team dinner.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Team experience",
+        "description": "An experience-led day such as desert hospitality, team-building or city discovery based on participant mix.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Incentive programme & gala",
+        "description": "Flexible sightseeing or a hosted celebration, planned around the budget and programme objectives.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Departures",
+        "description": "Group check-out, baggage coordination and airport movement planning.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Sample hotel and meeting logistics plan",
+      "Ground transport routing and arrival/departure coordination",
+      "Suggested programme management framework",
+      "Supplier sourcing support for event components"
+    ],
+    "upgrades": [
+      "Meeting rooms / AV / staging",
+      "Gala dinner concept and entertainment",
+      "Branding and welcome kits",
+      "Desert team-building programme",
+      "On-site event staffing"
+    ],
+    "slug": "programme-dubai-corporate-incentive",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Dubai destination skyline and travel scenery",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-dubai-signature-explorer",
+    "title": "Dubai Signature Explorer",
+    "destination": "Dubai",
+    "category": "Trade programme",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "First-time visitors · couples · small families",
+    "summary": "An easy-to-sell introduction to Dubai with skyline highlights, desert hospitality and flexible family-friendly additions.",
+    "image": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrive in Dubai",
+        "description": "Meet-and-assist as agreed, hotel transfer and time to settle in. Optional evening dhow cruise depends on the arrival time.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Dubai city sights & Burj Khalifa",
+        "description": "An orientation tour of classic and modern Dubai, with an optional pre-booked Burj Khalifa entry in the selected time band.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Desert safari experience",
+        "description": "Afternoon desert safari with activities and dinner as per the selected operator package. Pick-up basis and suitability are confirmed before booking.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "A day to personalise",
+        "description": "Choose Dubai Frame, Museum of the Future, Dubai Mall and Aquarium, or Aquaventure. Book timed attractions according to the group profile.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Departure transfer",
+        "description": "Check out and transfer to the airport, with timing based on flight and traffic.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Hotel stay with selected meal plan",
+      "Airport arrival and departure transfers",
+      "Dubai city orientation and desert safari on agreed service basis",
+      "Local supplier coordination"
+    ],
+    "upgrades": [
+      "Burj Khalifa timed-entry ticket",
+      "Dhow cruise with dinner",
+      "Museum of the Future",
+      "Dubai Frame / Aquarium & Underwater Zoo",
+      "Private transfers and premium desert safari"
+    ],
+    "slug": "programme-dubai-signature-explorer",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Dubai Signature Explorer in Dubai",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-malaysia-city-and-highlands",
+    "title": "Malaysia City & Highlands",
+    "destination": "Malaysia",
+    "category": "Trade programme",
+    "duration": "5N / 6D",
+    "nights": 5,
+    "audience": "Families · short-haul leisure · first-time visitors",
+    "summary": "Kuala Lumpur with highland scenery, city sights and family-friendly downtime.",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrive in Kuala Lumpur",
+        "description": "Airport transfer and hotel check-in, with a relaxed first evening.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Kuala Lumpur discovery",
+        "description": "City sightseeing including iconic photo stops, with attractions selected by the traveller’s interests.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Genting Highlands day",
+        "description": "Day visit with cable-car or family attraction options, subject to operating conditions and chosen package.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "City leisure & shopping",
+        "description": "A more flexible day for malls, cafés, cultural sites or a pre-arranged attraction.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Optional heritage day",
+        "description": "Choose a Malacca day trip or a relaxed Kuala Lumpur programme based on the group’s pace.",
+        "included": true
+      },
+      {
+        "label": "Day 6",
+        "title": "Departure",
+        "description": "Airport transfer according to departure time.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Kuala Lumpur hotel stay and selected meal plan",
+      "Airport transfers",
+      "KL orientation city tour",
+      "Genting Highlands ground visit as agreed"
+    ],
+    "upgrades": [
+      "Genting cable car / theme park tickets",
+      "Malacca heritage tour",
+      "Petronas Towers timed-entry ticket",
+      "Private sightseeing vehicle",
+      "Extension to Langkawi or Penang"
+    ],
+    "slug": "programme-malaysia-city-and-highlands",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Malaysia City & Highlands in Malaysia",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-singapore-corporate-experience",
+    "title": "Singapore Corporate Experience",
+    "destination": "Singapore",
+    "category": "Trade programme",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Corporate teams · leadership meetings · incentives",
+    "summary": "A compact corporate programme balancing a focused business agenda with Singapore’s event and destination experiences.",
+    "image": "https://images.unsplash.com/photo-1527698266440-12104e498b76?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrivals & welcome",
+        "description": "Scheduled airport pickups, hotel registration and optional team welcome reception.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Conference or workshop",
+        "description": "Full or half-day meeting requirements, catering, AV and room setup according to event brief.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "City-led team experience",
+        "description": "Facilitated city discovery, Sentosa experiences or a curated evening networking activity.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Incentive showcase",
+        "description": "Choose tailored attraction visits, team activities and a farewell event.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Departure",
+        "description": "Group transfer scheduling based on individual flight manifests.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Indicative hotel and delegate-flow plan",
+      "Coordinated ground transfers",
+      "Meeting-day planning assistance",
+      "Destination activity suggestions"
+    ],
+    "upgrades": [
+      "Conference venue / breakout rooms",
+      "LED screen, audio and staging",
+      "Branded group logistics",
+      "Sentosa incentive experiences",
+      "Formal group dinner"
+    ],
+    "slug": "programme-singapore-corporate-experience",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Singapore Corporate Experience in Singapore",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-singapore-family-discoveries",
+    "title": "Singapore Family Discoveries",
+    "destination": "Singapore",
+    "category": "Trade programme",
+    "duration": "4N / 5D",
+    "nights": 4,
+    "audience": "Families · first-time visitors",
+    "summary": "A well-paced family escape that brings together city highlights, Sentosa and signature wildlife experiences.",
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1600&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrival & an easy first evening",
+        "description": "Arrival transfer to the hotel. After check-in, keep the evening flexible for a relaxed waterfront walk or optional evening experience.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "City highlights & Gardens by the Bay",
+        "description": "Explore key city sights and plan an optional visit to Gardens by the Bay. Attraction tickets and transfer basis are confirmed in the quotation.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Sentosa island experiences",
+        "description": "A full day shaped around the family’s preferences: cable car, selected Sentosa attractions or beach time. Avoid overloading the day.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Mandai wildlife day",
+        "description": "Choose Night Safari, Singapore Zoo, River Wonders or Bird Paradise depending on ages, timings and interests. Multiple parks are optional.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Departure",
+        "description": "Free time subject to flight schedule, followed by a pre-arranged airport transfer.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Suggested hotel stay with daily breakfast",
+      "Arrival and departure airport transfers",
+      "City sightseeing and selected attraction transfers as agreed",
+      "Local coordination and operational assistance"
+    ],
+    "upgrades": [
+      "Sentosa cable car & Wings of Time",
+      "Gardens by the Bay domes",
+      "Night Safari / River Wonders / Bird Paradise",
+      "Universal Studios Singapore",
+      "Private transfers instead of shared"
+    ],
+    "slug": "programme-singapore-family-discoveries",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Singapore destination skyline and travel scenery",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-thailand-city-and-coast",
+    "title": "Thailand City + Coast",
+    "destination": "Thailand",
+    "category": "Trade programme",
+    "duration": "6N / 7D",
+    "nights": 6,
+    "audience": "Couples · friends · mixed-age travellers",
+    "summary": "Bangkok energy balanced with a slower coastal stay, designed around travel time, experiences and preferred hotel style.",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrive in Bangkok",
+        "description": "Airport transfer, check-in and an easy evening at leisure.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Bangkok discovery",
+        "description": "Plan city highlights such as temples, the riverside and markets, matched to interests and opening schedules.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Bangkok to Phuket",
+        "description": "Transfer to the airport for a separately quoted domestic flight, then connect to the Phuket hotel.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Phuket at leisure",
+        "description": "Beach time with optional Old Town discovery, viewpoints or a family-friendly experience.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Island-experience option",
+        "description": "Choose a weather-permitting island excursion suitable for the season and traveller type.",
+        "included": true
+      },
+      {
+        "label": "Day 6",
+        "title": "Flexible coast day",
+        "description": "Spa time, cultural visit, café exploration or a planned activity. Keep a buffer for weather changes.",
+        "included": true
+      },
+      {
+        "label": "Day 7",
+        "title": "Departure",
+        "description": "Airport transfer for the onward flight, including necessary connection buffer.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Suggested stays in Bangkok and Phuket",
+      "Airport transfers in each destination as agreed",
+      "Selected guided sightseeing on the confirmed itinerary",
+      "Ground supplier coordination"
+    ],
+    "upgrades": [
+      "Domestic Bangkok–Phuket flight",
+      "Island excursions subject to sea conditions",
+      "Nong Nooch Tropical Garden (on an alternate Pattaya route)",
+      "Private city touring",
+      "Premium beach resort upgrade"
+    ],
+    "slug": "programme-thailand-city-and-coast",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Thailand City + Coast in Thailand",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  },
+  {
+    "id": "programme-vietnam-heritage-circuit",
+    "title": "Vietnam Heritage Circuit",
+    "destination": "Vietnam",
+    "category": "Trade programme",
+    "duration": "8N / 9D",
+    "nights": 8,
+    "audience": "Cultural groups · multi-generation travellers",
+    "summary": "A north-to-south sample route taking in Vietnam’s landscapes, heritage towns and urban culture.",
+    "image": "https://images.unsplash.com/photo-1531737212413-667205e1c5ae?auto=format&fit=crop&w=1400&q=82",
+    "days": [
+      {
+        "label": "Day 1",
+        "title": "Arrive in Hanoi",
+        "description": "Airport reception, hotel check-in and time to explore the Old Quarter at an easy pace.",
+        "included": true
+      },
+      {
+        "label": "Day 2",
+        "title": "Hanoi heritage day",
+        "description": "Historical and cultural highlights matched to group interests; optional evening experience.",
+        "included": true
+      },
+      {
+        "label": "Day 3",
+        "title": "Ha Long Bay overnight",
+        "description": "Travel to the bay for a scheduled cruise with meals and excursions according to the chosen vessel.",
+        "included": true
+      },
+      {
+        "label": "Day 4",
+        "title": "Return & travel to central Vietnam",
+        "description": "Return to Hanoi and onward flight to Da Nang, subject to suitable connections.",
+        "included": true
+      },
+      {
+        "label": "Day 5",
+        "title": "Hoi An & surroundings",
+        "description": "Heritage streets, local crafts and a slower evening programme.",
+        "included": true
+      },
+      {
+        "label": "Day 6",
+        "title": "To Ho Chi Minh City",
+        "description": "Transfer to the airport for onward travel and time to settle into the southern city.",
+        "included": true
+      },
+      {
+        "label": "Day 7",
+        "title": "City discovery",
+        "description": "Ho Chi Minh City orientation and a possible Cu Chi excursion, depending on pace.",
+        "included": true
+      },
+      {
+        "label": "Day 8",
+        "title": "Mekong Delta option",
+        "description": "Choose a full-day Mekong experience or city leisure day to suit the group.",
+        "included": true
+      },
+      {
+        "label": "Day 9",
+        "title": "Departure",
+        "description": "Airport transfer with flight-time buffer.",
+        "included": true
+      }
+    ],
+    "inclusions": [
+      "Indicative hotel stays across listed cities",
+      "Ground transfers as specified",
+      "Selected guided cultural sightseeing",
+      "Group handling and local coordination"
+    ],
+    "upgrades": [
+      "Domestic flight sectors",
+      "Ha Long overnight cruise tier",
+      "English-speaking guide throughout",
+      "Private coach and group dinner arrangements",
+      "Mekong Delta / Cu Chi upgrades"
+    ],
+    "slug": "programme-vietnam-heritage-circuit",
+    "status": "published",
+    "contentStatus": "draft_reference",
+    "imageAlt": "Travel experience for Vietnam Heritage Circuit in Vietnam",
+    "operationsChecklist": [
+      "Travel dates & flight timings",
+      "Adult/child count & ages",
+      "Hotel class & rooming",
+      "Private vs shared transfers",
+      "Activity selection & time slots",
+      "Special requirements",
+      "Supplier availability",
+      "Final inclusions & exclusions"
+    ],
+    "exclusionsNote": "Airfares, visa fees, travel insurance, optional admissions, tips and personal spending are excluded unless specifically quoted. Tax treatment and local charges are confirmed in the final commercial proposal."
+  }
+]

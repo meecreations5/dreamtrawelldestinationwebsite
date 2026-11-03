@@ -1,0 +1,163 @@
+/* V13.0.3 visual parity: all public selectors inherit the published Admin theme.
+   Intentionally loaded last. No changes to independent staff/admin theme. */
+.public-site {
+  --dt-quiet: color-mix(in srgb, var(--luxury-champagne) 56%, var(--luxury-surface));
+  --dt-outline: color-mix(in srgb, var(--navy) 13%, var(--luxury-surface));
+  --dt-on-dark: #FFFFFF;
+  --dt-on-dark-muted: #E0EBF4;
+  font-weight:400;
+}
+/* Resolve high-contrast regressions where generic h2/h3 rules override navy panels. */
+.public-site :is(.dark-panel,.v12-philosophy,.dt-home-band--navy,.destination-v10-planning) :is(h1,h2,h3,h4,strong:not(.eyebrow)) {color:var(--dt-on-dark);}
+.public-site :is(.dark-panel,.v12-philosophy,.dt-home-band--navy,.destination-v10-planning) :is(p,small,li) {color:var(--dt-on-dark-muted);opacity:1;}
+.public-site :is(.dark-panel,.v12-philosophy,.dt-home-band--navy) :is(.eyebrow, h2 em) {color:var(--dt-on-dark-muted);}
+.public-site .dark-panel .advantage-grid>div {background:rgba(255,255,255,.065);border:1px solid rgba(255,255,255,.17);border-radius:13px;}
+.public-site .dark-panel .advantage-grid h3 {color:#FFF;font-weight:600;}
+.public-site .dark-panel .advantage-grid p {color:#E0EBF4;font-size:14px;line-height:1.75;}
+.public-site .dark-panel .advantages h2 {color:#FFF;}
+.public-site .v12-philosophy h2,.public-site .v12-philosophy h2 em {color:#FFF;}
+.public-site .destination-v10-planning h3,.public-site .destination-v10-planning p {color:#FFF;}
+/* Accessible navy cards on destination knowledge screens, even when a palette is edited. */
+.public-site :is(.destination-v10-planning,.v11-area-details.navy,.destination-knowledge-card.navy) {background:var(--navy);color:#FFF;}
+.public-site :is(.destination-v10-planning,.v11-area-details.navy,.destination-knowledge-card.navy) :is(h1,h2,h3,h4,p,small,span) {color:#FFF;}
+/* Remove legacy tan/champagne treatments: Pearl Mist is a supporting surface, not the brand. */
+.public-site .dt-home .dt-home-band--champagne {background:var(--dt-quiet);border-block:1px solid var(--dt-outline);}
+.public-site .dt-home .dt-home-band--ivory {background:var(--dt-pearl);}
+.public-site .dt-home .dt-home-band--warm {background:var(--dt-quiet);}
+.public-site .dt-home .dt-home-band--mist {background:var(--dt-cloud);}
+.public-site .dt-home .v12-contrast {padding:58px 0;}
+.public-site .v11-area-details {background:var(--dt-quiet);border:1px solid var(--dt-outline);color:var(--navy);}
+.public-site .v11-area-details :is(h3,strong) {color:var(--navy);}
+.public-site .v11-area-details p {color:var(--luxury-ink);font-size:15px;}
+.public-site .v11-area-details small {color:var(--luxury-ink);font-size:12px;}
+.public-site .v11-area-details>div {border-bottom:1px solid var(--dt-outline);}
+.public-site .v11-area-choices button.selected {background:var(--navy);border-color:var(--navy);color:white;}
+.public-site :is(.v12-contact-note,.v12-partner-statement,.v12-operations,.v11-filter-panel,.destination-agent-bar,.v12-exclusion-note) {background:var(--dt-quiet);}
+.public-site .destination-v10-intro {background:var(--dt-pearl);}
+.public-site .destination-v10-panel {background:var(--luxury-surface);border:1px solid var(--dt-outline);border-radius:12px;}
+.public-site .destination-v10-row {font-size:14px;font-weight:400;}
+.public-site .destination-v10-row b {font-weight:600;}
+.public-site .destination-caveat {background:#FFF9F1;color:#654A29;border-color:#EDDBBF;}
+/* More comfortable legibility and regular-weight descriptions across screens. */
+.public-site :is(.pack-body p,.dest-content p,.section-heading p,.v12-contrast-grid p,.v11-story-card p,.v12-pillar p,.v12-service-link p,.v12-brief-grid p,.v12-programme-banner p,.v12-contact-info>p,.v12-faq-list details>p,.v12-about-intro p) {font-size:15px;font-weight:400;line-height:1.78;opacity:1;}
+.public-site :is(.pack-meta,.pack-kicker,.footer-grid p,.footer-grid a:not(:has(img))) {font-size:13px;}
+.public-site .footer-grid :is(p,a) {font-weight:400;line-height:1.75;}
+.public-site .site-footer {padding-top:64px;padding-bottom:27px;border-color:var(--dt-cloud);}
+.public-site .footer-grid {gap:clamp(20px,5vw,70px);}
+.public-site .footer-motto {color:#E3ECF3;}
+.public-site .dt-home .section-heading {margin-bottom:34px;}
+.public-site .dt-home .dt-home-band--navy {border-top-color:var(--navy);}
+.public-site .dt-home .dt-home-band--navy h2 em {color:#EAF1F5;}
+.public-site .sub-hero.shell {padding-top:64px;padding-bottom:25px;}
+.public-site .sub-hero.shell + .section.pt-zero {padding-top:0!important;}
+.public-site .catalogue-bar {margin-top:0;}
+.public-site .pack-card .pack-body {min-height:0;}
+.public-site .btn,.public-site .text-link,.public-site .quiet-link {font-weight:600;}
+/* Package detail: designed for travel agents, with fully optional content. */
+.public-site .dt-package-page {background:var(--luxury-surface);}
+.public-site .dt-package-top {background:var(--dt-pearl);padding:25px 0 42px;}
+.public-site .dt-package-crumb {display:flex;align-items:center;gap:9px;font-size:12px;color:var(--luxury-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:38px;}
+.public-site .dt-package-crumb span {overflow:hidden;text-overflow:ellipsis;}
+.public-site .dt-package-crumb a:hover {color:var(--red);}
+.public-site .dt-package-header {display:flex;justify-content:space-between;align-items:flex-end;gap:45px;}
+.public-site .dt-package-header>div {max-width:800px;}
+.public-site .dt-package-header h1 {font:400 clamp(37px,4.4vw,60px)/1.16 var(--editorial);letter-spacing:-.04em;color:var(--navy);margin:13px 0 17px;}
+.public-site .dt-package-header p {color:var(--luxury-ink);font-size:16px;line-height:1.75;max-width:690px;margin:0;}
+.public-site .dt-detail-desktop-quote {white-space:nowrap;flex:none;margin-bottom:8px;}
+.public-site .dt-package-highlights {display:flex;flex-wrap:wrap;gap:8px;margin:25px 0 23px;}
+.public-site .dt-package-highlights>span {display:flex;gap:9px;align-items:center;padding:10px 14px;background:var(--luxury-surface);border:1px solid var(--dt-outline);border-radius:9px;font-size:13px;color:var(--navy);}
+.public-site .dt-package-highlights svg {color:var(--red);flex:none;}
+.public-site .dt-package-gallery {width:100%;}
+.public-site .dt-gallery-stage {height:clamp(275px,37vw,490px);background:var(--dt-cloud);overflow:hidden;position:relative;border-radius:18px;}
+.public-site .dt-gallery-stage img {width:100%;height:100%;object-fit:cover;display:block;}
+.public-site .dt-gallery-stage:after {content:'';position:absolute;inset:auto 0 0;height:25%;background:linear-gradient(transparent,rgba(6,30,50,.3));pointer-events:none;}
+.public-site .dt-gallery-count {position:absolute;bottom:15px;right:17px;display:flex;align-items:center;gap:8px;background:rgba(8,34,53,.79);border:1px solid #ffffff36;color:#fff;padding:8px 13px;border-radius:24px;font-size:12px;z-index:1;}
+.public-site .dt-gallery-arrow {position:absolute;top:50%;transform:translateY(-50%);display:grid;place-items:center;z-index:1;width:44px;height:44px;border:0;border-radius:50%;color:var(--navy);background:rgba(255,255,255,.94);box-shadow:0 5px 12px #0002;}
+.public-site .dt-gallery-arrow.prev {left:17px;}.public-site .dt-gallery-arrow.next {right:17px;}
+.public-site .dt-gallery-arrow:hover {background:#fff;}
+.public-site .dt-gallery-thumbs {display:flex;overflow-x:auto;gap:9px;padding:12px 0 2px;scroll-snap-type:x mandatory;}
+.public-site .dt-gallery-thumbs button {padding:2px;border:2px solid transparent;border-radius:11px;flex:none;width:100px;height:74px;overflow:hidden;background:var(--luxury-surface);scroll-snap-align:start;}
+.public-site .dt-gallery-thumbs button.active {border-color:var(--red);}
+.public-site .dt-gallery-thumbs img {width:100%;height:100%;object-fit:cover;border-radius:7px;}
+.public-site .dt-package-body {background:var(--luxury-surface);}
+.public-site .dt-detail-layout {display:grid;grid-template-columns:minmax(0,1.8fr) minmax(265px,.8fr);gap:clamp(25px,4vw,65px);align-items:start;}
+.public-site .dt-detail-main {min-width:0;}
+.public-site .dt-package-tablist {display:flex;overflow-x:auto;gap:8px;border-bottom:1px solid var(--dt-outline);padding-bottom:12px;scrollbar-width:thin;}
+.public-site .dt-package-tablist button {border:0;border-radius:9px;padding:12px 15px;white-space:nowrap;background:var(--dt-pearl);color:var(--navy);font-size:13px;font-weight:500;min-height:46px;}
+.public-site .dt-package-tablist button.active {background:var(--navy);color:white;}
+.public-site .dt-package-tabpanel {padding-top:34px;min-height:340px;}
+.public-site .dt-panel-title {margin-bottom:26px;}
+.public-site .dt-panel-title h2 {margin:12px 0;font:600 clamp(25px,2.7vw,35px)/1.3 var(--display);color:var(--navy);letter-spacing:-.03em;}
+.public-site .dt-panel-title p {font-size:15px;line-height:1.75;color:var(--luxury-ink);max-width:680px;margin:10px 0 0;}
+.public-site .dt-package-tabpanel .day-list {margin:0;}
+.public-site .dt-package-tabpanel .day-card {border-radius:11px;border:1px solid var(--dt-outline);margin-bottom:11px;background:var(--luxury-surface);}
+.public-site .dt-package-tabpanel .day-card button {min-height:69px;}
+.public-site .dt-package-tabpanel .day-card button span {color:var(--red);font-size:12px;font-weight:600;}
+.public-site .dt-package-tabpanel .day-card strong {color:var(--navy);font-weight:600;font-size:15px;}
+.public-site .dt-package-tabpanel .day-details {font-size:15px;font-weight:400;line-height:1.75;padding-right:26px;}
+.public-site .dt-inclusion-columns,.public-site .dt-stay-cards {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-bottom:20px;}
+.public-site .dt-inclusion-columns section,.public-site .dt-stay-cards article {border:1px solid var(--dt-outline);border-radius:13px;padding:23px;background:var(--dt-pearl);}
+.public-site .dt-inclusion-columns h3,.public-site .dt-stay-cards h3 {font:600 17px/1.4 var(--display);display:flex;align-items:center;gap:9px;color:var(--navy);margin:0 0 18px;}
+.public-site .dt-inclusion-columns h3 svg,.public-site .dt-stay-cards svg {color:var(--red);flex:none;}
+.public-site .dt-inclusion-columns section>p {display:flex;align-items:flex-start;gap:9px;color:var(--luxury-ink);font-size:14px;line-height:1.65;margin:10px 0;}
+.public-site .dt-inclusion-columns p svg {margin-top:3px;flex:none;color:var(--red);}
+.public-site .dt-stay-cards p {font-size:15px;font-weight:400;line-height:1.75;color:var(--luxury-ink);}
+.public-site .dt-planning-list {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.public-site .dt-planning-list>div {display:flex;align-items:center;gap:10px;padding:17px;border:1px solid var(--dt-outline);border-radius:10px;background:var(--dt-pearl);font-size:14px;color:var(--luxury-ink);}
+.public-site .dt-planning-list svg {color:var(--red);flex:none;}
+.public-site .dt-planning-caution {display:flex;gap:12px;align-items:start;margin-top:23px;background:var(--dt-quiet);border:1px solid var(--dt-outline);border-radius:10px;padding:20px;}
+.public-site .dt-planning-caution svg {color:var(--red);flex:none;}
+.public-site .dt-planning-caution p {margin:0;color:var(--luxury-ink);font-size:14px;line-height:1.75;}
+.public-site .dt-detail-sidebar {position:sticky;top:105px;display:grid;gap:15px;}
+.public-site .dt-quote-panel {padding:26px;background:var(--navy);color:#fff;border-radius:14px;}
+.public-site .dt-quote-panel .eyebrow {color:#E0EBF4;}
+.public-site .dt-quote-panel h2 {font:400 27px/1.35 var(--editorial);letter-spacing:-.02em;color:#fff;margin:18px 0;}
+.public-site .dt-quote-panel p,.public-site .dt-quote-note {color:#E0EBF4;font-size:14px;line-height:1.75;font-weight:400;}
+.public-site .dt-quote-panel .btn {display:flex;justify-content:center;margin:22px 0;}
+.public-site .dt-quote-note {display:flex;align-items:flex-start;gap:8px;border-top:1px solid #ffffff38;padding-top:15px;}
+.public-site .dt-quote-note svg {flex:none;margin-top:3px;}
+.public-site .dt-detail-assurance {padding:20px 23px;border:1px solid var(--dt-outline);background:var(--dt-pearl);border-radius:12px;}
+.public-site .dt-detail-assurance h3 {margin:0 0 10px;font:600 16px var(--display);color:var(--navy);}
+.public-site .dt-detail-assurance p {color:var(--luxury-ink);font-size:14px;line-height:1.7;margin:0;}
+.public-site .dt-package-related {background:var(--dt-cloud);}
+.public-site .dt-package-mobile-cta {display:none;}
+@media(max-width:950px) {
+  .public-site .dt-detail-layout {grid-template-columns:minmax(0,1fr);}
+  .public-site .dt-detail-sidebar {position:static;display:grid;grid-template-columns:1fr 1fr;}
+  .public-site .dt-package-header {display:block;}
+  .public-site .dt-detail-desktop-quote {margin-top:19px;}
+}
+@media(max-width:690px) {
+  .public-site .shell {width:calc(100% - 32px);}
+  .public-site .dt-package-top {padding:15px 0 25px;}
+  .public-site .dt-package-crumb {margin-bottom:22px;}
+  .public-site .dt-package-header h1 {font-size:clamp(32px,8vw,42px);}
+  .public-site .dt-package-header p {font-size:15px;}
+  .public-site .dt-detail-desktop-quote {display:none;}
+  .public-site .dt-package-highlights {margin:19px 0;gap:6px;}
+  .public-site .dt-package-highlights>span {font-size:12px;padding:9px 11px;}
+  .public-site .dt-gallery-stage {height:auto;aspect-ratio:4/3;border-radius:12px;}
+  .public-site .dt-gallery-arrow {width:39px;height:39px;}
+  .public-site .dt-gallery-thumbs button {width:82px;height:64px;}
+  .public-site .dt-package-body {padding-top:32px;padding-bottom:55px;}
+  .public-site .dt-detail-sidebar {grid-template-columns:1fr;}
+  .public-site .dt-package-tablist {gap:5px;}
+  .public-site .dt-package-tablist button {font-size:12px;padding:10px 13px;}
+  .public-site .dt-inclusion-columns,.public-site .dt-stay-cards,.public-site .dt-planning-list {grid-template-columns:1fr;}
+  .public-site .dt-package-tabpanel .day-details {padding:5px 18px 22px;font-size:14px;}
+  .public-site .dt-detail-sidebar .dt-quote-panel {padding:22px;}
+  .public-site .dt-package-mobile-cta {display:flex;gap:12px;align-items:center;justify-content:space-between;position:fixed;left:0;right:0;bottom:calc(73px + env(safe-area-inset-bottom,0px));z-index:39;padding:10px 16px;background:var(--luxury-surface);border-top:1px solid var(--dt-outline);box-shadow:0 -8px 24px #0c294622;}
+  .public-site .dt-package-mobile-cta>div {display:grid;gap:1px;min-width:0;}
+  .public-site .dt-package-mobile-cta small {font-size:9px;letter-spacing:.08em;color:var(--red);}
+  .public-site .dt-package-mobile-cta span {font-size:12px;color:var(--navy);}
+  .public-site .dt-package-mobile-cta .btn {padding:9px 11px;white-space:nowrap;min-height:42px;}
+  .public-site .dt-package-page {padding-bottom:78px;}
+  .public-site .dt-home .v12-contrast {padding:45px 0;}
+  .public-site .footer-grid {gap:25px;}
+  .public-site .footer-grid p,.public-site .footer-grid a:not(:has(img)) {font-size:13px;}
+  .public-site :is(.pack-body p,.dest-content p,.v12-contrast-grid p,.v11-story-card p,.v12-pillar p,.v12-service-link p) {font-size:14px;}
+  .public-site .sub-hero.shell {padding-top:41px;padding-bottom:19px;}
+}
+@media(prefers-reduced-motion:reduce) {
+  .public-site .dt-gallery-arrow,.public-site .dt-package-tablist button {transition:none!important;}
+}

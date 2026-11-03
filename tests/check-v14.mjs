@@ -1,0 +1,36 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const read=f=>fs.readFileSync(f,'utf8');
+const routes=['privacy-policy','terms-of-use','faqs','cookies','disclaimer','accessibility'];
+for(const r of routes)assert(fs.existsSync(`app/(site)/${r}/page.jsx`),`Missing ${r} route`);
+const rules=read('firestore.rules');
+assert(rules.includes('match /sitePages/{id}'));
+assert(rules.includes('allow create, update: if validSitePage(id)'));
+assert(rules.includes('function validSitePage(id)'));
+assert(rules.includes('isSuperAdmin()'));
+assert(rules.includes('request.resource.data.status in [\'draft\',\'published\']'));
+assert(!rules.includes('allow read, write: if true'));
+const admin=read('components/admin-workspace.jsx');
+const panel=read('components/admin-panel.jsx');
+assert(admin.includes('PageContentEditor'));
+assert(panel.includes("'pagesSEO'"));
+assert(admin.includes('seoTitle')&&admin.includes('seoDescription'));
+for (const key of ['about','partners','services','contact','destinations','packages','programmes','offers','testimonials']) {
+  const p=read(`app/(site)/${key}/page.jsx`);
+  assert(p.includes('ManagedPageSections'),key+' missing content editor link');
+  assert(p.includes('generateMetadata'),key+' missing SEO');
+}
+for (const key of ['destinations','packages'])assert(read(`app/(site)/${key}/[slug]/page.jsx`).includes('generateMetadata'));
+assert(read('app/(site)/page.jsx').includes('ManagedPageSections'));
+assert(read('app/sitemap.js').includes('reviewedLegal'));
+assert(read('lib/content-pages.js').includes('reviewed:false') || read('lib/content-pages.js').includes("reviewed:!['privacy-policy'"));
+assert(read('components/cookie-consent.jsx').includes('Reject optional analytics'));
+assert(read('lib/firebase-client.js').includes('isAnalyticsAllowed()'));
+assert(read('components/quote-builder.jsx').includes('Privacy Policy'));
+assert(read('next.config.mjs').includes('X-Content-Type-Options'));
+assert(read('lib/content.js').includes('record lookup'));
+const all=read('lib/page-text-fields.js');
+const fieldCount=(all.match(/"id"\s*:/g)||[]).length;
+assert(fieldCount >= 50,'Expected 50+ editable static copy fields, got '+fieldCount);
+const pkg=read('package.json');assert(pkg.includes('14.0.0'));
+console.log(`PASS: V14 CMS, ${routes.length} legal/FAQ/accessibility routes, ${fieldCount} approved-layout text fields, SEO, privacy consent and security checks.`);

@@ -1,0 +1,618 @@
+[
+  {
+    "slug": "dubai",
+    "name": "Dubai",
+    "eyebrow": "UAE · City & desert",
+    "summary": "Modern landmarks, desert experiences, family attractions and corporate event possibilities.",
+    "hero": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Downtown Dubai",
+      "Dubai Marina",
+      "Jumeirah",
+      "Deira / Bur Dubai"
+    ],
+    "activities": [
+      "Dubai city orientation",
+      "Burj Khalifa",
+      "Desert safari",
+      "Dhow cruise"
+    ],
+    "guidance": "Consider hotel location, peak-season pricing, transfer timing and tour capacity.",
+    "areaProfiles": [
+      {
+        "area": "Downtown / Business Bay",
+        "advantages": "Close to landmark sightseeing and premium hotels",
+        "considerations": "Higher room rates during major events",
+        "suitableFor": "First-time and premium FIT"
+      },
+      {
+        "area": "Dubai Marina / JBR",
+        "advantages": "Beach leisure, dining and an active atmosphere",
+        "considerations": "Can add driving time for Old Dubai activities",
+        "suitableFor": "Couples and younger families"
+      },
+      {
+        "area": "Deira / Bur Dubai",
+        "advantages": "Traditional markets and varied value-led stays",
+        "considerations": "Less convenient for the newer beachfront areas",
+        "suitableFor": "Budget-led groups and city breaks"
+      },
+      {
+        "area": "Palm Jumeirah",
+        "advantages": "Resort-led leisure with upscale hospitality",
+        "considerations": "Higher cost and longer journeys to some city attractions",
+        "suitableFor": "Luxury, celebration and resort stays"
+      }
+    ],
+    "standardExperiences": [
+      "City orientation and key attractions",
+      "Desert safari with meal option",
+      "Marina or Creek dhow cruise",
+      "Dubai Frame / traditional markets"
+    ],
+    "offbeatIdeas": [
+      "Al Fahidi heritage walk",
+      "Hatta landscapes as a separately planned excursion",
+      "Al Seef and creek-side cultural experiences"
+    ],
+    "hotelGuidance": "Match hotel choice to route: Deira/Bur Dubai for value-led city stays, Downtown for landmarks, Marina/JBR for beach-access leisure, Palm for resort luxury.",
+    "operationalNotes": "Check attraction slots, seasonal timings, drive times, public holidays, tourism fees, and SIC pickup windows. Seasonal gardens need calendar checks.",
+    "destinationHeadline": "A city of extraordinary contrasts.",
+    "destinationOverview": "From contemporary landmarks and desert adventures to family entertainment, luxury stays and corporate programmes, Dubai offers compelling itineraries for many traveller profiles.",
+    "sellingAreas": [
+      "Downtown & Business Bay",
+      "Dubai Marina & JBR",
+      "Palm Jumeirah",
+      "Old Dubai & Deira"
+    ],
+    "travellerProfiles": [
+      "First-time family holidays",
+      "Premium short breaks",
+      "Corporate incentives"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Consider seasonal heat, attraction slot availability, event-date hotel demand and the distinction between SIC and private transfers.",
+    "experienceHighlights": [
+      {
+        "title": "Dubai city highlights and waterfront",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Desert safari and dinner experience",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Abu Dhabi extension / theme parks",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "eyebrow": "City · Family & MICE",
+    "summary": "Compact city sightseeing with world-class attractions, efficient transport and family-friendly options.",
+    "hero": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Marina Bay",
+      "Sentosa",
+      "Orchard Road",
+      "Little India / Bugis"
+    ],
+    "activities": [
+      "Gardens by the Bay",
+      "Sentosa experiences",
+      "Night Safari",
+      "River Wonders"
+    ],
+    "guidance": "Plan attraction slots, travel time between locations and the practical order of wildlife activities.",
+    "areaProfiles": [
+      {
+        "area": "Marina Bay / City Hall",
+        "advantages": "Major skyline sights and convenient central touring",
+        "considerations": "Premium positioning and busy weekends",
+        "suitableFor": "First-timers, premium and MICE"
+      },
+      {
+        "area": "Orchard",
+        "advantages": "Shopping, varied hotels and excellent urban access",
+        "considerations": "Less immersive for nature-first travellers",
+        "suitableFor": "Families and shopping-led FIT"
+      },
+      {
+        "area": "Sentosa",
+        "advantages": "Resort and attraction concentration",
+        "considerations": "Extra transfers for Mandai and some city sights",
+        "suitableFor": "Families, premium leisure"
+      },
+      {
+        "area": "Little India / Bugis",
+        "advantages": "Vibrant local streets and varied price points",
+        "considerations": "Some rooms are compact",
+        "suitableFor": "Value-led city stays"
+      }
+    ],
+    "standardExperiences": [
+      "Gardens by the Bay / Marina Bay sights",
+      "Sentosa attractions and evening shows",
+      "Night Safari / Mandai wildlife experiences",
+      "Singapore city orientation"
+    ],
+    "offbeatIdeas": [
+      "Southern Ridges walk",
+      "Joo Chiat / Katong heritage walk",
+      "Pulau Ubin nature day"
+    ],
+    "hotelGuidance": "Choose Marina Bay, Orchard, Bugis/Little India or Sentosa based on the attraction mix and hotel category, not star rating alone.",
+    "operationalNotes": "Keep Mandai and Sentosa in distinct touring blocks, allow for entry windows and travel gaps, and verify attraction operating schedules.",
+    "destinationHeadline": "Small in size. Remarkable in possibility.",
+    "destinationOverview": "A compact, efficiently connected destination combining urban icons, wildlife attractions, Sentosa, premium hotels and world-class event infrastructure.",
+    "sellingAreas": [
+      "Marina Bay",
+      "Sentosa",
+      "Orchard Road",
+      "Mandai"
+    ],
+    "travellerProfiles": [
+      "Families with children",
+      "Short premium breaks",
+      "Singapore + Malaysia combinations"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Ticket dates and entry windows matter. Build realistic transfer gaps between Mandai, Sentosa and city attractions.",
+    "experienceHighlights": [
+      {
+        "title": "Marina Bay & Gardens by the Bay",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Sentosa experiences & evening show",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Night Safari, River Wonders and Bird Paradise",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "eyebrow": "Islands · Culture & leisure",
+    "summary": "Varied combinations of Bangkok, Pattaya, Phuket and Krabi, for different traveller styles.",
+    "hero": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Bangkok",
+      "Pattaya",
+      "Phuket",
+      "Krabi"
+    ],
+    "activities": [
+      "Bangkok cultural sightseeing",
+      "Island excursions",
+      "Nong Nooch",
+      "Beach and nature experiences"
+    ],
+    "guidance": "Check regional flight routing, sea conditions, seasonal closures and transfer feasibility.",
+    "areaProfiles": [
+      {
+        "area": "Bangkok / Sukhumvit",
+        "advantages": "Urban hotels, dining, shopping and day tours",
+        "considerations": "Traffic can affect sightseeing schedules",
+        "suitableFor": "First-time FIT and shopping groups"
+      },
+      {
+        "area": "Pattaya",
+        "advantages": "Family shows and convenient resort-style city stays",
+        "considerations": "Some neighbourhoods favour nightlife",
+        "suitableFor": "Short group circuits and families"
+      },
+      {
+        "area": "Phuket / Patong–Kata",
+        "advantages": "Beach access, varied hotels and boat trips",
+        "considerations": "Peak crowding and slower road movements",
+        "suitableFor": "Couples, families and beach trips"
+      },
+      {
+        "area": "Krabi / Ao Nang",
+        "advantages": "Scenic beaches and island activity base",
+        "considerations": "Some activities depend on boat/weather",
+        "suitableFor": "Nature lovers and honeymooners"
+      }
+    ],
+    "standardExperiences": [
+      "Bangkok temple / city circuits",
+      "Nong Nooch Garden and cultural shows",
+      "Phi Phi or other suitable island excursion",
+      "Chao Phraya river experiences"
+    ],
+    "offbeatIdeas": [
+      "Bang Krachao green escape near Bangkok",
+      "Community craft / food encounters",
+      "Khao Sok extension with extra nights"
+    ],
+    "hotelGuidance": "Select Sukhumvit or riverside Bangkok according to touring needs; in Phuket, compare Patong, Kata/Karon and quieter resort zones. Avoid assuming all properties offer the same beach access.",
+    "operationalNotes": "Separate land transfers from domestic flights and sea excursions; boat tours are weather-sensitive. For wildlife venues, apply responsible animal welfare standards.",
+    "destinationHeadline": "Many journeys. One unforgettable Thailand.",
+    "destinationOverview": "Thailand combines energetic cities, island stays, nature-led excursions, nightlife, wellness and family-friendly experiences across different travel styles.",
+    "sellingAreas": [
+      "Bangkok",
+      "Pattaya",
+      "Phuket",
+      "Krabi"
+    ],
+    "travellerProfiles": [
+      "Couples and leisure groups",
+      "Beach holidays",
+      "Multi-city and experiential travel"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Choose logical city combinations. Explain domestic flights, speedboat dependence on weather and transfer durations clearly.",
+    "experienceHighlights": [
+      {
+        "title": "Bangkok city and river experiences",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Phuket island excursions",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Nong Nooch / Tiger Park (where appropriate)",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "eyebrow": "Cities · Highlands & nature",
+    "summary": "Kuala Lumpur city stays and attractive combinations with Genting, Penang or Langkawi.",
+    "hero": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Kuala Lumpur",
+      "Genting Highlands",
+      "Langkawi",
+      "Penang"
+    ],
+    "activities": [
+      "Kuala Lumpur city highlights",
+      "Genting excursion",
+      "Batu Caves",
+      "Island relaxation"
+    ],
+    "guidance": "Clarify intercity routing and whether the itinerary fits comfortably within the selected nights.",
+    "areaProfiles": [
+      {
+        "area": "KLCC / Bukit Bintang",
+        "advantages": "City highlights, shopping and dining",
+        "considerations": "Road traffic and event demand",
+        "suitableFor": "Short city breaks, families"
+      },
+      {
+        "area": "Genting Highlands",
+        "advantages": "Highland atmosphere, attractions and resort stays",
+        "considerations": "Weather and weekend crowding",
+        "suitableFor": "Families and leisure groups"
+      },
+      {
+        "area": "Langkawi",
+        "advantages": "Resort beaches and laid-back island activities",
+        "considerations": "Needs flight/transfer planning from KL",
+        "suitableFor": "Couples, resort holidays"
+      },
+      {
+        "area": "Penang / Georgetown",
+        "advantages": "Cultural food and heritage experiences",
+        "considerations": "Requires a separate routing decision",
+        "suitableFor": "Culture-minded travellers"
+      }
+    ],
+    "standardExperiences": [
+      "Kuala Lumpur highlights",
+      "Genting Highlands day visit",
+      "Batu Caves stop with suitable timing",
+      "Langkawi cable car / island experiences"
+    ],
+    "offbeatIdeas": [
+      "Putrajaya architectural circuit",
+      "Malacca heritage day trip",
+      "Cameron Highlands extension"
+    ],
+    "hotelGuidance": "Use KLCC or Bukit Bintang for city touring; Genting for highlands-led stays, and Langkawi for leisure extensions with a realistic flight and transfer plan.",
+    "operationalNotes": "Confirm cable-car operations and attraction ticket validity. Multi-region packages need internal flight, luggage and transfer coordination.",
+    "destinationHeadline": "A destination full of different directions.",
+    "destinationOverview": "From Kuala Lumpur’s skyline and Genting Highlands to Langkawi’s beaches, Malaysia offers versatile options for families, groups and short breaks.",
+    "sellingAreas": [
+      "Kuala Lumpur",
+      "Genting Highlands",
+      "Langkawi",
+      "Penang"
+    ],
+    "travellerProfiles": [
+      "Value-led family travel",
+      "Group departures",
+      "Singapore + Malaysia itineraries"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Confirm attraction operating days, travel time from KL to Genting and appropriate flight connections for island extensions.",
+    "experienceHighlights": [
+      {
+        "title": "KL city highlights & KL Tower",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Genting Highlands excursion",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Langkawi island stay",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "eyebrow": "Culture · Villas & discovery",
+    "summary": "A mix of cultural landscapes, villa stays, beach time, wellness and local experiences.",
+    "hero": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Ubud",
+      "Seminyak",
+      "Nusa Dua",
+      "Uluwatu"
+    ],
+    "activities": [
+      "Temple visits",
+      "Rice terraces",
+      "Sunset coast",
+      "Couple experiences"
+    ],
+    "guidance": "Cluster attractions by area; travel time can be affected significantly by traffic.",
+    "areaProfiles": [
+      {
+        "area": "Ubud",
+        "advantages": "Rice terraces, local arts and nature stays",
+        "considerations": "Farther from southern beach and airport activity",
+        "suitableFor": "Wellness, culture and couples"
+      },
+      {
+        "area": "Seminyak / Canggu",
+        "advantages": "Dining, boutique stays and lifestyle venues",
+        "considerations": "Traffic and a more active environment",
+        "suitableFor": "Couples and lifestyle trips"
+      },
+      {
+        "area": "Nusa Dua",
+        "advantages": "Resort-led beach holidays and convention hotels",
+        "considerations": "Fewer walkable cultural experiences",
+        "suitableFor": "Families, MICE and resorts"
+      },
+      {
+        "area": "Uluwatu / Jimbaran",
+        "advantages": "Coastal outlooks, sunset dining, villas",
+        "considerations": "Cliffside locations can need longer transfers",
+        "suitableFor": "Honeymoon, premium leisure"
+      }
+    ],
+    "standardExperiences": [
+      "Ubud temples and rice terraces",
+      "Uluwatu sunset / cultural dance",
+      "Waterfall and village touring",
+      "South Bali leisure day"
+    ],
+    "offbeatIdeas": [
+      "Sidemen valley discovery",
+      "Amed snorkelling subject to conditions",
+      "West Bali / Menjangan extension"
+    ],
+    "hotelGuidance": "Recommend an Ubud + South Bali split only where the stay is long enough; for shorter programmes choose one logical hotel area and build practical excursions.",
+    "operationalNotes": "Road travel takes longer than map distance implies. Boat crossings to Nusa Penida depend on conditions; avoid overloading multi-stop days.",
+    "destinationHeadline": "For journeys that deserve to slow down.",
+    "destinationOverview": "Bali is suited to romantic escapes, private villas, wellness-led programmes, waterfall and temple experiences, and curated adventure.",
+    "sellingAreas": [
+      "Ubud",
+      "Seminyak",
+      "Nusa Dua",
+      "Uluwatu"
+    ],
+    "travellerProfiles": [
+      "Honeymoon and couples",
+      "Luxury private villas",
+      "Nature and cultural travel"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Traffic can considerably affect transfer times. Match hotel location to the experience mix and allow buffers for island excursions.",
+    "experienceHighlights": [
+      {
+        "title": "Ubud culture and rice terraces",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Uluwatu sunset experience",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Nusa Penida day trip (subject to conditions)",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "eyebrow": "Heritage · Landscapes & routes",
+    "summary": "Heritage cities, scenic coastlines and multi-city routes for curious travellers.",
+    "hero": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "Hanoi",
+      "Ha Long",
+      "Da Nang / Hoi An",
+      "Ho Chi Minh City"
+    ],
+    "activities": [
+      "Old Quarter experiences",
+      "Ha Long cruising",
+      "Hoi An heritage",
+      "City and culinary discovery"
+    ],
+    "guidance": "Check domestic transfers and avoid trying to cover too many regions in a short programme.",
+    "areaProfiles": [
+      {
+        "area": "Hanoi / Old Quarter",
+        "advantages": "Heritage, food and access to northern trips",
+        "considerations": "Narrow busy streets and limited vehicle access",
+        "suitableFor": "Culture and first-time FIT"
+      },
+      {
+        "area": "Ha Long / Lan Ha Bay",
+        "advantages": "Cruise-based scenic experiences",
+        "considerations": "Schedules/weather affect sailing",
+        "suitableFor": "Couples and experiential groups"
+      },
+      {
+        "area": "Da Nang / Hoi An",
+        "advantages": "Coastline, heritage and moderate-paced touring",
+        "considerations": "Choice of beach vs old-town hotel location",
+        "suitableFor": "Families and couples"
+      },
+      {
+        "area": "Ho Chi Minh City",
+        "advantages": "Urban culture and southern excursions",
+        "considerations": "Long distances to the northern circuits",
+        "suitableFor": "City, groups and business"
+      }
+    ],
+    "standardExperiences": [
+      "Hanoi cultural walking / city circuit",
+      "Ha Long Bay cruise options",
+      "Hoi An heritage and Da Nang",
+      "Ho Chi Minh City tour / Cu Chi option"
+    ],
+    "offbeatIdeas": [
+      "Ninh Binh landscape extension",
+      "Hue imperial heritage",
+      "Mekong Delta homestay-led trip"
+    ],
+    "hotelGuidance": "Stay near Hanoi Old Quarter for heritage or outside the busiest lanes for easier motor-coach access; choose Hoi An town or Da Nang beach by traveller pace.",
+    "operationalNotes": "North/central/south multi-city routes require flight planning. Confirm cruise departure and cancellation policies, and allow travel buffers.",
+    "destinationHeadline": "Every region tells a different story.",
+    "destinationOverview": "Vietnam rewards thoughtful route design with heritage cities, dramatic landscapes, cruises, street-food culture and varied coastal experiences.",
+    "sellingAreas": [
+      "Hanoi",
+      "Ha Long Bay",
+      "Da Nang & Hoi An",
+      "Ho Chi Minh City"
+    ],
+    "travellerProfiles": [
+      "Culture-seeking travellers",
+      "Couples and groups",
+      "Multi-city circuits"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Long north-to-south distances often need internal flights. Account for boat-cruise weather and transfer connections.",
+    "experienceHighlights": [
+      {
+        "title": "Hanoi heritage and local experiences",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Ha Long Bay cruise experience",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      },
+      {
+        "title": "Hoi An heritage and Da Nang coastline",
+        "description": "Adapt the timing, inclusions and transport to suit the travel brief."
+      }
+    ]
+  },
+  {
+    "slug": "maldives",
+    "name": "Maldives",
+    "eyebrow": "Island resorts · Honeymoon & luxury",
+    "summary": "Island stays, romantic villa experiences and premium relaxation.",
+    "hero": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=82",
+    "areas": [
+      "North Malé Atoll",
+      "South Malé Atoll",
+      "Ari Atoll",
+      "Other resort atolls"
+    ],
+    "activities": [
+      "Water villa stays",
+      "Marine excursions",
+      "Spa and wellness",
+      "Private dining"
+    ],
+    "guidance": "Confirm resort transfer mode, domestic/seaplane schedules, meal plans, taxes and flight arrival times.",
+    "areaProfiles": [
+      {
+        "area": "North / South Malé Atoll",
+        "advantages": "Convenient speedboat-resort choices",
+        "considerations": "Resorts vary significantly in price and style",
+        "suitableFor": "Short breaks, families"
+      },
+      {
+        "area": "Ari Atoll",
+        "advantages": "Resort diversity and marine excursions",
+        "considerations": "Transfers can add cost or time",
+        "suitableFor": "Snorkellers and honeymooners"
+      },
+      {
+        "area": "Baa Atoll",
+        "advantages": "Resort-led nature and marine experiences",
+        "considerations": "Access often involves an onward transfer",
+        "suitableFor": "Premium nature and luxury guests"
+      },
+      {
+        "area": "Local island stays",
+        "advantages": "Guesthouses and community context",
+        "considerations": "Different facilities and visitor norms than private resorts",
+        "suitableFor": "Value-led and experience-seeking guests"
+      }
+    ],
+    "standardExperiences": [
+      "House-reef snorkelling at suitable resorts",
+      "Sunset cruise / dolphin watching where available",
+      "Private beach dining as an upgrade",
+      "Guided water activities with safety oversight"
+    ],
+    "offbeatIdeas": [
+      "Marine conservation-led excursions",
+      "Local island cultural experiences where appropriate",
+      "Split-stay beach and water villa combination"
+    ],
+    "hotelGuidance": "Compare resort island vs local island; beach villa vs water villa; meal plan (BB/HB/FB/AI); reef, child policy, location, and transfer method. Quote full transfer and taxes.",
+    "operationalNotes": "Resort access uses speedboat, seaplane or domestic flight plus boat depending on location. Confirm flight arrival, daylight-only seaplane schedules, meal plan, green tax and marine weather before quoting.",
+    "destinationHeadline": "A world of islands, designed around your guests.",
+    "destinationOverview": "Maldives programmes begin with the right island, resort, meal plan and villa category. Add water experiences and special-occasion touches to match the guest profile.",
+    "sellingAreas": [
+      "North / South Malé Atoll",
+      "Ari Atoll",
+      "Baa Atoll",
+      "Local islands"
+    ],
+    "travellerProfiles": [
+      "Honeymoon and couples",
+      "Resort and water villas",
+      "Family and marine leisure"
+    ],
+    "planningHeadline": "Good itineraries begin with realistic routing.",
+    "planningNote": "Resort transfer type and meal plan shape the quotation. Confirm speedboat, seaplane or domestic-flight routing against guest arrival time and the specific resort.",
+    "experienceHighlights": [
+      {
+        "title": "Lagoon and house-reef snorkelling",
+        "description": "Experience and operating conditions are matched to the selected resort and traveller profile."
+      },
+      {
+        "title": "Sunset cruise and private beach dining",
+        "description": "Experience and operating conditions are matched to the selected resort and traveller profile."
+      },
+      {
+        "title": "Marine experiences and private resort leisure",
+        "description": "Experience and operating conditions are matched to the selected resort and traveller profile."
+      }
+    ]
+  }
+]

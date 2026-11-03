@@ -1,0 +1,26 @@
+{
+  "version": "13.0.3",
+  "baseline": "V13.0.2 Pearl Mist",
+  "changed_files": [
+    "README.md",
+    "app/(site)/packages/[slug]/page.jsx",
+    "app/layout.jsx",
+    "app/v13-0-3-polish.css",
+    "components/admin-panel.jsx",
+    "components/admin-workspace.jsx",
+    "components/package-gallery.jsx",
+    "components/package-guide-tabs.jsx",
+    "components/ui.jsx",
+    "data/packages.json",
+    "docs/V13_0_3_UI_AND_PACKAGE_RELEASE.md",
+    "firestore.rules",
+    "lib/package-image.js",
+    "lib/validation.js",
+    "package.json",
+    "tests/check-v13-0-3.mjs"
+  ],
+  "unchanged_file_count": 130,
+  "build_status": "unverified; npm registry inaccessible",
+  "tests": "13 structural/source checks passed; JSX parser 52 files",
+  "deploy_notes": "Review new gallery Firestore allowlist before deployment; do not overwrite private env files"
+}

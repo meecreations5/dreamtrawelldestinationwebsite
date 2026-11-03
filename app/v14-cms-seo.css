@@ -1,0 +1,35 @@
+.site-document-hero { padding: clamp(54px,7vw,105px) 0 26px; max-width: 100%; background: var(--surface-soft,#F4F8FA); }
+.site-document-hero h1 { margin:16px 0; font-size:clamp(2.1rem,4vw,3.6rem); font-weight:500; color:var(--navy,#0C2946); }
+.site-document-hero p { max-width:710px; line-height:1.8; font-weight:400; color:var(--ink,#425466); }
+.site-document-main { padding: 35px 0 100px; }
+.site-managed-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:22px; }
+.site-managed-sections { background:#F4F8FA; }
+.site-managed-block { background:#fff; border:1px solid #E2EAF0; border-radius:14px; padding:clamp(20px,3vw,38px); }
+.site-managed-block h2 { font-size:clamp(1.2rem,2vw,1.5rem);font-weight:600;line-height:1.35;color:#0C2946;margin:0 0 15px; }
+.site-managed-block p,.site-managed-block li { font-size:15px;line-height:1.8;color:#425466;font-weight:400;white-space:pre-line; }
+.site-managed-block li {margin:5px 0;} .site-managed-block ul{padding-left:20px;}
+.site-document-main .site-managed-grid { grid-template-columns:1fr;max-width:900px;margin:auto; }
+.site-document-main .site-managed-block {border:0;border-bottom:1px solid #DFE8EF;border-radius:0;padding:25px 0;background:transparent;}
+.site-document-contact {margin:40px auto 0;max-width:900px;font-size:15px;line-height:1.8;}
+.site-document-contact a{color:#BD3046;text-decoration:underline;text-underline-offset:4px;}
+.site-faq-list{max-width:900px;margin:20px auto 0;}
+.site-faq-item{background:#fff;border:1px solid #DDE7EF;border-radius:12px;margin-bottom:12px;overflow:hidden;}
+.site-faq-item summary{list-style:none;cursor:pointer;padding:20px 24px;color:#0C2946;font-weight:550;font-size:16px;display:flex;justify-content:space-between;gap:24px;align-items:center;}
+.site-faq-item summary::-webkit-details-marker{display:none}.site-faq-item summary span{color:#BD3046;font-size:24px;font-weight:400;}
+.site-faq-item[open] summary span{transform:rotate(45deg)}.site-faq-item p{padding:0 24px 22px;margin:0;color:#425466;line-height:1.75;font-weight:400;font-size:15px;}
+.site-footer-legal{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;}.site-footer-legal a{color:#DAE5EE;font-size:12px;font-weight:400;}
+.staff-page-cms .staff-page-block{padding:18px;margin:15px 0;border:1px solid #D8E4EC;border-radius:12px;background:#fff;}
+.staff-page-cms .staff-page-block header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;}
+.staff-page-cms .staff-page-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:22px;}
+.staff-page-cms .staff-page-list button{border:1px solid #D7E4ED;background:#fff;color:#12314E;text-align:left;border-radius:9px;padding:10px;font:inherit;cursor:pointer;}
+.staff-page-cms .staff-page-list button.active{background:#0C2946;color:#fff;border-color:#0C2946;}
+.staff-page-cms .staff-field textarea{min-height:110px;}
+@media(max-width:700px){.site-document-hero{padding:46px 0 20px}.site-document-main{padding:18px 0 65px}.site-managed-grid{grid-template-columns:1fr}.site-managed-block{padding:22px}}
+
+.dt-consent-banner {position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:9999;width:min(750px,calc(100% - 30px));border:1px solid #CDDDE8;box-shadow:0 12px 45px #0C294631;border-radius:14px;padding:20px 24px;background:#fff;display:flex;gap:20px;align-items:center;justify-content:space-between;}
+.dt-consent-banner h2 {font-size:17px;font-weight:600;margin:0 0 7px;color:#0C2946}.dt-consent-banner p {font-size:13px;line-height:1.6;color:#425466;font-weight:400;margin:0;}
+.dt-consent-banner a {color:#BD3046;text-decoration:underline}.dt-consent-actions {display:flex;flex-shrink:0;flex-direction:column;gap:9px;}.dt-consent-actions button{font-size:12px;min-width:160px;min-height:40px;}
+.dt-cookie-settings{background:none;border:0;color:#DAE5EE;cursor:pointer;font:inherit;font-size:12px;padding:0;text-align:left;}
+.dt-cookie-settings:hover{text-decoration:underline;}@media(max-width:650px){.dt-consent-banner{flex-direction:column;align-items:stretch;bottom:78px;padding:17px;}.dt-consent-actions{flex-direction:row;flex-wrap:wrap}.dt-consent-actions button{flex:1}}
+
+.site-contact-details{padding-top:20px;padding-bottom:45px}.site-contact-details h2{font-size:23px;color:#0C2946;font-weight:600}.site-contact-details p{font-size:15px;line-height:1.75;color:#425466}.site-contact-details a{color:#BD3046;text-decoration:underline;overflow-wrap:anywhere}

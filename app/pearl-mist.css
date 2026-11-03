@@ -1,0 +1,111 @@
+/* V13.0.2 / Pearl Mist: brand-aware public website refresh. Scoped; admin is unaffected. */
+.public-site {
+  --dt-pearl:var(--luxury-ivory);
+  --dt-cloud:var(--luxury-champagne);
+  --dt-muted:var(--luxury-ink);
+  --muted:var(--luxury-ink);
+  font-family:'Inter',Arial,sans-serif;
+  font-size:15px;
+  font-weight:400;
+  line-height:1.7;
+  background:var(--dt-pearl);
+  color:var(--dt-muted);
+}
+.public-site :is(p,li,dd,dt,blockquote) {font-weight:400;}
+.public-site p {line-height:1.78;}
+.public-site :is(h1,h2,h3,h4,h5,h6) {color:var(--navy);}
+.public-site :is(.section-heading h2,.section h2,.cta-section h2) {
+  font-family:'Manrope','Inter',sans-serif;
+  font-weight:600;
+  letter-spacing:-.035em;
+}
+.public-site :is(.v12-service-link h3,.v12-pillar h3,.v11-story-card h3,.v11-service-card h3,.v12-brief-grid h3,.destination-v10-experience-grid h3,.v11-area-details h3,.v12-faq-list summary strong) {
+  font-family:'Manrope','Inter',sans-serif;
+  font-weight:600;
+  letter-spacing:-.02em;
+}
+.public-site .hero-copy>p {font-size:15px;line-height:1.8;opacity:1;}
+.public-site :is(.section-heading p,.muted,.dest-content p,.pack-body p,.v11-story-card p,.v11-service-card p,.v12-pillar p,.v12-service-link p,.v12-contrast-grid p,.v12-brief-grid p,.v12-about-intro p,.v12-philosophy p,.v12-partner-statement p,.v12-faq-list details>p,.v12-programme-banner p,.v12-destination-cta p,.v12-contact-info>p,.v12-contact-option p,.v12-form-title p,.v11-area-details p,.v11-contact-feature p,.destination-v10-experience-grid p,.v12-exclusion-note p,.v11-partner-note p,.v12-about-testimonials p) {
+  font-family:'Inter',Arial,sans-serif;
+  font-size:14px;
+  font-weight:400;
+  line-height:1.78;
+  letter-spacing:0;
+  opacity:1;
+}
+.public-site :is(.v12-brief-cta p,.v12-checklist-grid>div,.v11-brief-description) {font-weight:400;}
+.public-site :is(.nav-links a,.footer-grid a,.v11-area-choices button,.v11-chip,.v11-day-action) {font-weight:500;}
+.public-site :is(.btn,.text-link,.quiet-link,.pack-actions a,.v11-area-table-toggle summary,.v12-service-link span,.finder-label strong,.v12-quick-fields label,.v12-faq-list summary strong) {font-weight:600;}
+.public-site :is(.v11-filter-summary,.v11-filter-summary button,.finder label,.catalogue-bar label,.v12-quick-fields label) {font-size:12px;}
+.public-site :is(.v12-pillar p,.v12-service-link p,.v11-story-card p,.v11-service-card p) {font-size:14px;}
+.public-site .eyebrow {font-weight:500;letter-spacing:.14em;}
+.public-site .section-soft {background:var(--dt-pearl);}
+.public-site :is(.v12-partner-statement,.v12-contact-note,.v12-operations,.v11-area-details,.v11-contact-feature,.v11-filter-panel) {background:color-mix(in srgb,var(--dt-cloud) 75%,var(--dt-pearl));}
+.public-site .v12-philosophy {background:var(--navy);}
+.public-site :is(.v12-exclusion-note,.v11-service-card .v11-icon,.v11-area-choices button.selected) {border-color:var(--border);}
+.public-site :is(.v12-pillar,.v12-service-link,.v11-story-card,.v11-service-card,.v12-brief-grid article,.v12-quick-form,.v12-faq-list details) {border-radius:14px;}
+.public-site .v12-service-link {background:var(--luxury-surface);}
+.public-site .v12-checklist-grid>div {font-size:13px;background:var(--luxury-surface);}
+.public-site :is(.v12-quick-fields input,.v12-quick-fields textarea,.v12-quick-fields select,.finder select,.catalogue-bar select,.catalogue-bar input) {
+  color:var(--navy);background:var(--luxury-surface);border-color:color-mix(in srgb,var(--navy) 18%,var(--luxury-surface));
+  min-height:44px;font-size:14px;font-weight:400;border-radius:9px;
+}
+.public-site .nav-links a {font-size:12px;}
+.public-site .btn {font-size:13px;font-weight:600;}
+.public-site .dt-home {background:var(--dt-pearl);}
+.public-site .dt-home .home-hero {
+  background:linear-gradient(115deg,var(--dt-pearl),color-mix(in srgb,var(--dt-cloud) 58%,var(--luxury-surface)));
+  border-bottom:1px solid color-mix(in srgb,var(--navy) 9%,var(--luxury-surface));
+}
+.public-site .dt-home .dt-home-band--white {background:var(--luxury-surface);}
+.public-site .dt-home .dt-home-band--ivory {background:var(--dt-pearl);}
+.public-site .dt-home .dt-home-band--warm {background:var(--dt-pearl);}
+.public-site .dt-home .dt-home-band--mist {background:color-mix(in srgb,var(--dt-cloud) 90%,var(--luxury-surface));}
+.public-site .dt-home .dt-home-band--champagne {background:var(--dt-cloud);border-block:1px solid color-mix(in srgb,var(--navy) 11%,var(--luxury-surface));}
+.public-site .dt-home .dt-home-band--navy {border-top:2px solid color-mix(in srgb,var(--navy) 55%,var(--luxury-surface));}
+.public-site .dt-home .dt-home-band--navy :is(.eyebrow,h2 em) {color:#FFFFFF;}
+.public-site .dt-home .section-heading::before {background:var(--red)!important;opacity:.55;}
+/* Accessible rotating hero; hero remains stable in height across all destinations. */
+.public-site .dt-hero-photo {isolation:isolate;}
+.public-site .dt-hero-photo:after {z-index:1;pointer-events:none;}
+.public-site .dt-hero-photo-link {position:absolute;inset:0;display:block;z-index:0;}
+.public-site .dt-hero-photo-link img {height:100%;width:100%;object-fit:cover;animation:dt-hero-fade .55s ease-out both;}
+.public-site .dt-hero-caption {z-index:2;pointer-events:none;max-width:calc(100% - 30px);}
+.public-site .dt-hero-controls {position:absolute;right:14px;bottom:17px;z-index:4;display:flex;align-items:center;gap:6px;padding:5px 6px;border-radius:100px;background:rgba(7,27,44,.66);backdrop-filter:blur(12px);color:white;}
+.public-site .dt-hero-controls button {width:34px;height:34px;border:0;background:transparent;display:grid;place-items:center;border-radius:50%;color:white;}
+.public-site .dt-hero-controls button:hover,.public-site .dt-hero-controls button:focus-visible {background:rgba(255,255,255,.25);}
+.public-site .dt-hero-counter {font-size:11px;font-weight:500;font-variant-numeric:tabular-nums;min-width:37px;text-align:center;}
+@keyframes dt-hero-fade {from{opacity:.25;transform:scale(1.018)}to{opacity:1;transform:scale(1)}}
+/* The mobile dock has legible labels and app-like touch zones. */
+@media(max-width:690px){
+  .public-site {font-size:15px;line-height:1.72;}
+  .public-site .hero-copy>p {font-size:15px;}
+  .public-site :is(.section-heading p,.muted,.dest-content p,.pack-body p,.v11-story-card p,.v11-service-card p,.v12-pillar p,.v12-service-link p,.v12-contrast-grid p,.v12-brief-grid p,.v12-faq-list details>p,.v12-contact-info>p,.v11-area-details p) {font-size:14px;line-height:1.76;}
+  .public-site .dt-mobile-dock :is(a,button) {font-size:11px;font-weight:500;min-height:56px;gap:5px;}
+  .public-site .dt-hero-controls {bottom:12px;right:10px;gap:1px;}
+  .public-site .dt-hero-controls button {width:32px;height:34px;}
+  .public-site .dt-hero-caption {bottom:55px;left:22px;}
+  .public-site .dt-home .dt-home-band {border-top-color:color-mix(in srgb,var(--navy) 7%,transparent);}
+}
+@media(prefers-reduced-motion:reduce){.public-site .dt-hero-photo-link img{animation:none;}}
+/* Admin: new banner console inherits existing staff UI and styles only itself. */
+.dt-banner-layout{display:grid;grid-template-columns:minmax(300px,.88fr) minmax(0,1.12fr);gap:20px;align-items:start;}
+.dt-banner-layout .staff-form-section{min-width:0;}
+.dt-banner-radio-group{display:grid;gap:12px;margin:18px 0 23px;}
+.dt-banner-radio-group label{display:grid;grid-template-columns:18px 1fr;align-items:start;gap:9px 12px;font-size:14px;font-weight:600;cursor:pointer;}
+.dt-banner-radio-group input{margin:3px 0 0;accent-color:#BD3046;}
+.dt-banner-radio-group small{grid-column:2;display:block;font-size:12px;font-weight:400;color:#66788b;}
+.dt-banner-note{display:flex;align-items:start;gap:8px;font-size:12px;line-height:1.7;color:#50657b;margin:20px 0;}
+.dt-banner-note svg{flex:none;margin-top:2px;}
+.dt-banner-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
+.dt-banner-muted{font-size:13px;color:#5b7085;line-height:1.65;margin-bottom:18px;}
+.dt-banner-main-preview{position:relative;border-radius:14px;overflow:hidden;margin-bottom:17px;background:#edf1f6;}
+.dt-banner-main-preview img{width:100%;height:250px;object-fit:cover;}
+.dt-banner-main-preview strong{position:absolute;bottom:0;left:0;right:0;padding:24px;color:white;background:linear-gradient(transparent,#0c2946d9);font-size:22px;}
+.dt-banner-dest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;}
+.dt-banner-dest-grid button{border:2px solid transparent;border-radius:11px;background:#f4f8fa;padding:4px;overflow:hidden;text-align:left;}
+.dt-banner-dest-grid button.selected{border-color:#BD3046;}
+.dt-banner-dest-grid button img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:7px;}
+.dt-banner-dest-grid button span{display:block;font-size:12px;font-weight:500;padding:6px 3px;color:#0c2946;}
+@media(max-width:960px){.dt-banner-layout{grid-template-columns:1fr;}}
+@media(max-width:510px){.dt-banner-dest-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
